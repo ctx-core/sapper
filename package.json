@@ -27,11 +27,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.4.25",
+		"@ctx-core/array": "^15.4.26",
 		"@ctx-core/function": "^10.5.32",
-		"@ctx-core/object": "^6.3.6",
-		"@ctx-core/store": "^12.1.6",
-		"@ctx-core/uuid": "^3.1.7",
+		"@ctx-core/object": "^6.3.7",
+		"@ctx-core/store": "^12.1.7",
+		"@ctx-core/uuid": "^3.1.8",
 		"resolve": "^1.13.1",
 		"svelte": "^3.16.0"
 	},
