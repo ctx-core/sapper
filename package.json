@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "6.2.47",
+	"version": "6.2.48",
 	"description": "ctx-core sapper utils",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
