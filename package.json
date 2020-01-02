@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "6.2.55",
+	"version": "6.2.56",
 	"description": "ctx-core sapper utils",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
@@ -30,7 +30,7 @@
 		"@ctx-core/array": "^15.5.1",
 		"@ctx-core/function": "^10.5.36",
 		"@ctx-core/object": "^6.3.11",
-		"@ctx-core/store": "^12.3.4",
+		"@ctx-core/store": "^13.0.0",
 		"@ctx-core/uuid": "^3.1.12",
 		"resolve": "^1.14.1",
 		"svelte": "^3.16.7"
