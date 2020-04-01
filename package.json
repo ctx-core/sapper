@@ -36,7 +36,7 @@
 		"svelte": "^3.20.1"
 	},
 	"devDependencies": {
-		"sapper": "^0.27.11"
+		"sapper": "^0.27.12"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
 }
