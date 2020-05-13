@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "6.3.29",
+	"version": "6.3.30",
 	"description": "ctx-core sapper utils",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
@@ -27,11 +27,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.5.15",
-		"@ctx-core/function": "^13.0.0",
-		"@ctx-core/object": "^8.0.8",
-		"@ctx-core/store": "^13.1.24",
-		"@ctx-core/uuid": "^3.1.16",
+		"@ctx-core/array": "^15.5.16",
+		"@ctx-core/function": "^13.0.1",
+		"@ctx-core/object": "^8.0.9",
+		"@ctx-core/store": "^13.1.25",
+		"@ctx-core/uuid": "^3.1.17",
 		"resolve": "^1.17.0",
 		"svelte": "^3.22.2"
 	},
