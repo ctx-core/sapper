@@ -33,10 +33,10 @@
 		"@ctx-core/store": "^13.1.25",
 		"@ctx-core/uuid": "^3.1.17",
 		"resolve": "^1.17.0",
-		"svelte": "^3.22.2"
+		"svelte": "^3.22.3"
 	},
 	"devDependencies": {
-		"sapper": "^0.27.12"
+		"sapper": "^0.27.13"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
 }
