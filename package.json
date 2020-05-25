@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "6.3.32",
+	"version": "6.3.33",
 	"description": "ctx-core sapper utils",
 	"type": "module",
 	"scripts": {
@@ -28,11 +28,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.5.17",
-		"@ctx-core/function": "^13.0.2",
-		"@ctx-core/object": "^8.0.10",
-		"@ctx-core/store": "^13.1.27",
-		"@ctx-core/uuid": "^3.1.18",
+		"@ctx-core/array": "^15.5.18",
+		"@ctx-core/function": "^13.0.3",
+		"@ctx-core/object": "^8.0.11",
+		"@ctx-core/store": "^13.1.28",
+		"@ctx-core/uuid": "^3.1.19",
 		"resolve": "^1.17.0",
 		"svelte": "^3.22.3"
 	},
