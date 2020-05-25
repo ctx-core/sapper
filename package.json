@@ -2,7 +2,6 @@
 	"name": "@ctx-core/sapper",
 	"version": "6.3.35",
 	"description": "ctx-core sapper utils",
-	"type": "module",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
