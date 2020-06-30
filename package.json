@@ -2,6 +2,9 @@
 	"name": "@ctx-core/sapper",
 	"version": "6.3.40",
 	"description": "ctx-core sapper utils",
+	"main": "index.js",
+	"module": "index.js",
+	"types": "index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
@@ -31,7 +34,6 @@
 		"@ctx-core/function": "^13.0.7",
 		"@ctx-core/object": "^8.0.15",
 		"@ctx-core/store": "^13.1.34",
-		"@ctx-core/uuid": "^3.1.22",
 		"resolve": "^1.17.0",
 		"svelte": "^3.23.2"
 	},

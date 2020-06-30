@@ -3,7 +3,6 @@ import { writable, derived } from 'svelte/store'
 import { subscribe__debug } from '@ctx-core/store'
 import { _b } from '@ctx-core/object'
 import { _andand } from '@ctx-core/function'
-import { _uuid } from '@ctx-core/uuid'
 export const b__page__sapper = _b('__page__sapper', ()=>
 	writable(null))
 export const __page__sapper = b__page__sapper()
