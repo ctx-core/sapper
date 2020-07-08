@@ -2,9 +2,9 @@
 	"name": "@ctx-core/sapper",
 	"version": "6.3.49",
 	"description": "ctx-core sapper utils",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
