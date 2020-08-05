@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "6.3.79",
+	"version": "6.3.80",
 	"description": "ctx-core sapper utils",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,10 +30,10 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^16.0.11",
-		"@ctx-core/function": "^13.2.1",
-		"@ctx-core/object": "^9.0.11",
-		"@ctx-core/store": "^16.0.14",
+		"@ctx-core/array": "^16.0.12",
+		"@ctx-core/function": "^13.2.2",
+		"@ctx-core/object": "^9.0.12",
+		"@ctx-core/store": "^16.0.15",
 		"resolve": "^1.17.0",
 		"svelte": "^3.24.1"
 	},
