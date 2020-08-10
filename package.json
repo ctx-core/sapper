@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "6.3.81",
+	"version": "6.3.82",
 	"description": "ctx-core sapper utils",
 	"main": "./index.js",
 	"module": "./index.js",
