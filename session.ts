@@ -1,3 +1,4 @@
 import { Writable } from '@ctx-core/store'
-export type $session_type = Record<string, any>
+export type PreloadSession = Record<string, any>
+export type $session_type = PreloadSession
 export type session_type = Writable<$session_type>
