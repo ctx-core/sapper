@@ -1,14 +1,11 @@
 import { Writable } from '@ctx-core/store';
-export declare type $page_type = {
+export interface PreloadPage {
     host: string;
     path: string;
-    params: params_type;
-    query: query_type;
-};
+    params: Record<string, string>;
+    query: Record<string, string | string[]>;
+}
+export declare type $page_type = PreloadPage;
 export declare type page_type = Writable<$page_type>;
-export declare type params_type = {
-    [key: string]: any;
-};
-export declare type query_type = {
-    [key: string]: any;
-};
+export declare type params_type = Record<string, string>;
+export declare type query_type = Record<string, string | string[]>;

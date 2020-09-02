@@ -1,10 +1,12 @@
 import { Writable } from '@ctx-core/store'
-export type $page_type = {
-	host:string
-	path:string
-	params:params_type
-	query:query_type
-};
+// TODO: Remove or alias when https://github.com/sveltejs/sapper/pull/1468 is released
+export interface PreloadPage {
+	host: string;
+	path: string;
+	params: Record<string, string>;
+	query: Record<string, string | string[]>;
+}
+export type $page_type = PreloadPage;
 export type page_type = Writable<$page_type>
-export type params_type = { [key:string]:any }
-export type query_type = { [key:string]:any }
+export type params_type = Record<string, string>
+export type query_type = Record<string, string | string[]>
