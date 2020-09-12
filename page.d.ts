@@ -1,4 +1,4 @@
-import { Writable } from '@ctx-core/store';
+import type { Writable } from '@ctx-core/store';
 export interface PreloadPage {
     host: string;
     path: string;
