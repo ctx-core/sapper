@@ -2,6 +2,20 @@
 	"name": "@ctx-core/sapper",
 	"version": "6.6.10",
 	"description": "ctx-core sapper utils",
+	"keywords": [
+		"ctx-core",
+		"sapper"
+	],
+	"homepage": "https://github.com/ctx-core/sapper#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/sapper/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/sapper/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,36 +23,22 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/sapper/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"sapper"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/sapper/issues"
-	},
-	"homepage": "https://github.com/ctx-core/sapper#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^17.0.4",
-		"@ctx-core/function": "^14.0.3",
-		"@ctx-core/object": "^10.0.4",
-		"@ctx-core/store": "^16.2.8",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/store": "workspace:*",
 		"resolve": "^1.17.0",
 		"svelte": "^3.25.0"
 	},
 	"devDependencies": {
 		"sapper": "0.28.6"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "2e2b2b4511c6b22d449c7ba23ccbe497e92e8660"
 }

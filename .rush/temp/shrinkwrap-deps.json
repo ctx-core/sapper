@@ -1,0 +1,22 @@
+{
+  "camel-case@3.0.0": "sha1-yjw2iKTpzzpM2nd9xNy8cTJJz3M=",
+  "clean-css@4.2.3": "sha512-VcMWDN54ZN/DS+g58HYL5/n4Zrqe8vHJpGA8KdgUXFU4fuP/aHNw8eld9SyEIyabIMJX/0RaY/fplOo5hYLSFA==",
+  "commander@2.20.3": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+  "he@1.2.0": "sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==",
+  "html-minifier@4.0.0": "sha512-aoGxanpFPLg7MkIl/DDFYtb0iWz7jMFGqFhvEDZga6/4QTjneiD8I/NXL1x5aaoCp7FSIT6h/OhykDdPsbtMig==",
+  "http-link-header@1.0.2": "sha512-z6YOZ8ZEnejkcCWlGZzYXNa6i+ZaTfiTg3WhlV/YvnNya3W/RbX1bMVUMTuCrg/DrtTCQxaFCkXCz4FtLpcebg==",
+  "lower-case@1.1.4": "sha1-miyr0bno4K6ZOkv31YdcOcQujqw=",
+  "no-case@2.3.2": "sha512-rmTZ9kz+f3rCvK2TD1Ue/oZlns7OGoIWP4fc3llxxRXlOkHKoWPPWJOfFYpITabSow43QJbRIoHQXtt10VldyQ==",
+  "param-case@2.1.1": "sha1-35T9jPZTHs915r75oIWPvHK+Ikc=",
+  "path-parse@1.0.6": "sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==",
+  "relateurl@0.2.7": "sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=",
+  "resolve@1.17.0": "sha512-ic+7JYiV8Vi2yzQGFWOkiZD5Z9z7O2Zhm9XMaTxdJExKasieFCr+yXZ/WmXsckHiKl12ar0y6XiXDx3m4RHn1w==",
+  "sapper@0.28.6_svelte@3.25.0": "sha512-PLCZXBcXcL2ISBh+CqoUxcT0MwMnA8N71UDNhQig0Em5Z8vqg+g2jpKfYSnnyxqB5Plwc9LipN5ZJr42Vs4hXg==",
+  "shimport@1.0.1": "sha512-Imf4gH+8WQmT1GvxS/x79qpmfnE6m50hyN1ucatX+7oMCgmaF8obZWCPIzSUe6+P+YmXM46lkP2pxiV2/lt9Og==",
+  "source-map@0.6.1": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+  "sourcemap-codec@1.4.8": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==",
+  "string-hash@1.1.3": "sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=",
+  "svelte@3.25.0": "sha512-CUfq+YTC5Q0tBg7Q9X/QxNutdEYp7ogdbcTZF3mrowOlp3+OF1ZexHwI0Io2VqFSDxht7TlA2lTIQC4RnhR1MQ==",
+  "uglify-js@3.10.4": "sha512-kBFT3U4Dcj4/pJ52vfjCSfyLyvG9VYYuGYPmrPvAxRw/i7xHiT4VvCev+uiEMcEEiu6UNB6KgWmGtSUYIWScbw==",
+  "upper-case@1.1.3": "sha1-9rRQHC7EzdJrp4vnIilh3ndiFZg="
+}
