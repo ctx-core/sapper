@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/sapper",
-  "version": "6.6.11",
+  "version": "6.6.12",
   "description": "ctx-core sapper utils",
   "keywords": [
     "ctx-core",
@@ -22,15 +22,15 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },
   "dependencies": {
-    "@ctx-core/array": "workspace:*",
-    "@ctx-core/function": "workspace:*",
-    "@ctx-core/object": "workspace:*",
-    "@ctx-core/store": "workspace:*",
+    "@ctx-core/array": "18.0.1",
+    "@ctx-core/function": "15.0.1",
+    "@ctx-core/object": "11.0.1",
+    "@ctx-core/store": "16.2.11",
     "resolve": "^1.17.0",
     "svelte": "~3.25.1"
   },
