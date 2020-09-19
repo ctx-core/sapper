@@ -29,7 +29,8 @@
 		"types": [
 			"node"
 		],
-		"importsNotUsedAsValues": "error"
+		"importsNotUsedAsValues": "error",
+		"strict": true
 	},
 	"exclude": [
 		"node_modules"

@@ -2,37 +2,24 @@ import { promisify } from 'util'
 import { flatten } from '@ctx-core/array'
 const resolve = promisify(require('resolve'))
 import fs from 'fs'
-const readFile = promisify(fs.readFile)
-type opts__get__asset = {
-	key__asset: string,
-	dir__root: string,
-}
-/**
- * @typedef opts__get__asset
- * @param {string}[key__asset]
- * @param {string}[dir__root]
- */
 /**
  * GET asset
- * @param opts
- * @returns {get__asset}
- * @private
  */
-export function _get__asset(opts:opts__get__asset) {
-	const { key__asset, dir__root } = opts
-	return get__asset
-	async function get__asset(_, res) {
+export function _get_asset(opts:_get_asset_opts_type) {
+	const { asset_key, root_dir } = opts
+	return get_asset
+	async function get_asset(_, res) {
 		const NODE_ENV = process.env.NODE_ENV
 		const dir__build =
 			(NODE_ENV === 'dev' || NODE_ENV === 'development')
-			? `${dir__root}/__sapper__/dev`
-			: `${dir__root}/__sapper__/build`
+			? `${root_dir}/__sapper__/dev`
+			: `${root_dir}/__sapper__/build`
 		const path__build = await resolve(`${dir__build}/build.json`)
 		const build = JSON.parse(
-			(await readFile(path__build)).toString()
+			(await fs.promises.readFile(path__build)).toString()
 		)
 		const { assets } = build
-		const str__path__relative = assets[key__asset]
+		const str__path__relative = assets[asset_key]
 		const a1__path__relative = flatten([str__path__relative])
 		res.writeHead(200, {
 			'Content-Type': 'application/javascript',
@@ -40,20 +27,25 @@ export function _get__asset(opts:opts__get__asset) {
 		const body = await _body()
 		res.end(body)
 		async function _body() {
-			const a1__body__asset = await Promise.all(_a1__promise__body__asset())
-			return a1__body__asset.join('\n')
+			const asset_body_a1 = await Promise.all(_a1__promise__asset_body())
+			return asset_body_a1.join('\n')
 		}
-		function _a1__promise__body__asset() {
-			const a1__promise = []
+		function _a1__promise__asset_body() {
+			const promise_a1 = [] as Promise<Buffer>[]
 			for (let i = 0; i < a1__path__relative.length; i++) {
-				a1__promise.push(_body__asset(a1__path__relative[i]))
+				promise_a1.push(_asset_body(a1__path__relative[i]))
 			}
-			return a1__promise
+			return promise_a1
 		}
-		async function _body__asset(path__relative) {
+		async function _asset_body(path__relative) {
 			const path__resolved =
 				await resolve(`${dir__build}/client/${path__relative}`)
-			return readFile(path__resolved)
+			return fs.promises.readFile(path__resolved)
 		}
 	}
+}
+export const _get__asset = _get_asset
+export type _get_asset_opts_type = {
+	asset_key:string,
+	root_dir:string,
 }

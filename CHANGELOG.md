@@ -1,5 +1,19 @@
 # @ctx-core/sapper
 
+## 7.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.0
+  - @ctx-core/function@16.0.0
+  - @ctx-core/object@12.0.0
+  - @ctx-core/store@17.0.0
+
 ## 6.6.12
 
 ### Patch Changes

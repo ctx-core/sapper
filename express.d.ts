@@ -1,17 +1,9 @@
-declare type opts__get__asset = {
-    key__asset: string;
-    dir__root: string;
-};
-/**
- * @typedef opts__get__asset
- * @param {string}[key__asset]
- * @param {string}[dir__root]
- */
 /**
  * GET asset
- * @param opts
- * @returns {get__asset}
- * @private
  */
-export declare function _get__asset(opts: opts__get__asset): (_: any, res: any) => Promise<void>;
-export {};
+export declare function _get_asset(opts: _get_asset_opts_type): (_: any, res: any) => Promise<void>;
+export declare const _get__asset: typeof _get_asset;
+export declare type _get_asset_opts_type = {
+    asset_key: string;
+    root_dir: string;
+};
