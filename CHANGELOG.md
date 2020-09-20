@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 7.0.4
+
+### Patch Changes
+
+- sapper: 0.28.7 -> 0.28.8
+
 ## 7.0.3
 
 ### Patch Changes
