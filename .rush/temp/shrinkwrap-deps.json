@@ -17,6 +17,7 @@
   "sourcemap-codec@1.4.8": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==",
   "string-hash@1.1.3": "sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=",
   "svelte@3.25.1": "sha512-IbrVKTmuR0BvDw4ii8/gBNy8REu7nWTRy9uhUz+Yuae5lIjWgSGwKlWtJGC2Vg95s+UnXPqDu0Kk/sUwe0t2GQ==",
+  "typescript@4.0.3": "sha512-tEu6DGxGgRJPb/mVPIZ48e69xCn2yRmCgYmDugAVwmJ6o+0u1RI18eO7E7WBTLYLaEVVOhwQmcdhQHweux/WPg==",
   "uglify-js@3.10.4": "sha512-kBFT3U4Dcj4/pJ52vfjCSfyLyvG9VYYuGYPmrPvAxRw/i7xHiT4VvCev+uiEMcEEiu6UNB6KgWmGtSUYIWScbw==",
   "upper-case@1.1.3": "sha1-9rRQHC7EzdJrp4vnIilh3ndiFZg="
 }

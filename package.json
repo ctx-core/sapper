@@ -35,7 +35,8 @@
 		"svelte": "~3.25.1"
 	},
 	"devDependencies": {
-		"sapper": "0.28.7"
+		"sapper": "0.28.7",
+		"typescript": "^4.0.3"
 	},
 	"publishConfig": {
 		"access": "public"
