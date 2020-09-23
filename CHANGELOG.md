@@ -1,5 +1,12 @@
 # @ctx-core/sapper
 
+## 7.0.17
+
+### Patch Changes
+
+- @ctx-core/array@19.0.10
+- @ctx-core/store@17.2.2
+
 ## 7.0.16
 
 ### Patch Changes
