@@ -1,6 +1,6 @@
 import { writable, derived } from 'svelte/store'
 // @ts-ignore
-import { subscribe__debug } from '@ctx-core/store'
+import { debug_subscribe } from '@ctx-core/store'
 import { _b } from '@ctx-core/object'
 import { _andand } from '@ctx-core/function'
 export const b__page__sapper = _b('__page__sapper', ()=>
