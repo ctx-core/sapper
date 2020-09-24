@@ -1,7 +1,7 @@
-import { _b } from '@ctx-core/object'
+import { _b, B } from '@ctx-core/object'
 import { writable } from 'svelte/store'
 import type { Writable } from '@ctx-core/store'
-export const sapper_preloading_b = _b<sapper_preloading_type>('sapper_preloading', ()=>
+export const sapper_preloading_b: B<sapper_preloading_type> = _b('sapper_preloading', ()=>
 	writable(null))
 export const b__preloading__sapper = sapper_preloading_b
 export type $sapper_preloading_type = object

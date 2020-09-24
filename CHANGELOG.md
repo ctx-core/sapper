@@ -1,5 +1,16 @@
 # @ctx-core/sapper
 
+## 8.1.2
+
+### Patch Changes
+
+- explicitly setting B types when \_b is invoked
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.9
+  - @ctx-core/array@19.0.14
+  - @ctx-core/store@18.1.4
+
 ## 8.1.1
 
 ### Patch Changes
