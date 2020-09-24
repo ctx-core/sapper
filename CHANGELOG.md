@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 8.1.5
+
+### Patch Changes
+
+- - fix: fix: inferred type issues
+
 ## 8.1.4
 
 ### Patch Changes

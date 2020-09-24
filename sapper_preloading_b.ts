@@ -5,7 +5,7 @@ export const sapper_preloading_b:sapper_preloading_b_type =
 	_b('sapper_preloading', ()=>
 		writable(null)
 	)
-export const b__preloading__sapper = sapper_preloading_b as sapper_preloading_b_type
+export const b__preloading__sapper:sapper_preloading_b_type = sapper_preloading_b
 export type $sapper_preloading_type = object
 export type $maybe_sapper_preloading_type = null|$sapper_preloading_type
 export type sapper_preloading_type = Writable<$maybe_sapper_preloading_type>
