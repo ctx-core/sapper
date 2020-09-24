@@ -1,5 +1,19 @@
 # @ctx-core/sapper
 
+## 8.1.0
+
+### Minor Changes
+
+- extracted modules: sapper_page_b,sapper_path_b,sapper_preloading_b,sapper_session_b
+
+### Patch Changes
+
+- fix: inferred type issue
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.7
+  - @ctx-core/store@18.1.2
+  - @ctx-core/array@19.0.12
+
 ## 8.0.0
 
 ### Major Changes
