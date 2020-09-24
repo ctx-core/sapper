@@ -1,5 +1,16 @@
 # @ctx-core/sapper
 
+## 8.0.0
+
+### Major Changes
+
+- remove **page**sapper,**preloading**sapper,**session**sapper,**path**sapper
+
+### Patch Changes
+
+- Updated dependencies [c8839e951]
+  - @ctx-core/store@18.1.1
+
 ## 7.0.22
 
 ### Patch Changes
