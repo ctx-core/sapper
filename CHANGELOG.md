@@ -1,5 +1,14 @@
 # @ctx-core/sapper
 
+## 8.1.13
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.13
+  - @ctx-core/array@19.0.19
+  - @ctx-core/store@18.1.12
+
 ## 8.1.12
 
 ### Patch Changes
