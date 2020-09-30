@@ -1,5 +1,14 @@
 # @ctx-core/sapper
 
+## 8.1.24
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+
 ## 8.1.23
 
 ### Patch Changes
