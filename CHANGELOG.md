@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 8.1.28
+
+### Patch Changes
+
+- resolve: ^1.17.0 -> ^1.18.1
+
 ## 8.1.27
 
 ### Patch Changes
