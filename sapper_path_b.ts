@@ -1,6 +1,6 @@
 import { _b, B } from '@ctx-core/object'
-import { derived, Readable } from '@ctx-core/store'
 import { _andand, maybe_null } from '@ctx-core/function'
+import { derived, Readable } from '@ctx-core/store'
 import { sapper_page_b } from './sapper_page_b'
 export const sapper_path_b:sapper_path_b_type =
 	_b('sapper_path', ctx=>
