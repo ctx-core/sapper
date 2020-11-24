@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 8.1.39
+
+### Patch Changes
+
+- svelte: 3.29.7 -> 3.30.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.15
+
 ## 8.1.38
 
 ### Patch Changes
