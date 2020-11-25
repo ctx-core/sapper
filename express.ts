@@ -45,7 +45,7 @@ export function _get_asset(opts:_get_asset_opts_type) {
 	}
 }
 export const _get__asset = _get_asset
-export type _get_asset_opts_type = {
+export interface _get_asset_opts_type {
 	asset_key:string,
 	root_dir:string,
 }
