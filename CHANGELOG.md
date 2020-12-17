@@ -1,5 +1,21 @@
 # @ctx-core/sapper
 
+## 8.2.8
+
+### Patch Changes
+
+- interface instead of type: page_type,params_type,query_type,error_type,sapper_page_type,sapper_path,sapper_preloading_type,sapper_session
+- using export as instead of export const
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+  - @ctx-core/object@15.0.4
+  - @ctx-core/function@16.1.5
+  - @ctx-core/store@23.1.8
+
 ## 8.2.7
 
 ### Patch Changes
