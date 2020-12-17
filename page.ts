@@ -10,7 +10,7 @@ export interface Page {
 }
 export type PreloadPage = Page
 export type $page_type = Page
-export type page_type = Writable<$page_type>
-export type params_type = Record<string, string>
-export type query_type = Record<string, string|string[]>
-export type error_type = Error
+export interface page_type extends Writable<$page_type> {}
+export interface params_type extends Record<string, string> {}
+export interface query_type extends Record<string, string|string[]> {}
+export interface error_type extends Error {}

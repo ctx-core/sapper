@@ -1,4 +1,6 @@
 import type { Writable } from '@ctx-core/store';
-export declare type PreloadSession = Record<string, any>;
+export interface PreloadSession extends Record<string, any> {
+}
 export declare type $session_type = PreloadSession;
-export declare type session_type = Writable<$session_type>;
+export interface session_type extends Writable<$session_type> {
+}
