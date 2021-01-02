@@ -1,5 +1,12 @@
 # @ctx-core/sapper
 
+## 8.5.1
+
+### Patch Changes
+
+- Goto_opts_type: noscroll: boolean
+- fix: Goto: return Promise<void>
+
 ## 8.5.0
 
 ### Minor Changes
