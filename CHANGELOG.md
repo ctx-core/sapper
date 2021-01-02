@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 8.3.0
+
+### Minor Changes
+
+- feat: PreloadContext_fetch_type,PreloadContext_error_type,PreloadContext_redirect_type
+
 ## 8.2.24
 
 ### Patch Changes
