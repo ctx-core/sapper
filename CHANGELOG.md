@@ -1,5 +1,17 @@
 # @ctx-core/sapper
 
+## 8.5.0
+
+### Minor Changes
+
+- feat: Goto_opts_type
+
+## 8.4.0
+
+### Minor Changes
+
+- feat: Goto_opts_type
+
 ## 8.3.0
 
 ### Minor Changes
