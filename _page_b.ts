@@ -1,16 +1,16 @@
 import { _b, assign } from '@ctx-core/object'
 import { _readable_set_ctx, Readable, Unsubscriber } from '@ctx-core/store'
 import type {
-	$page_type, $host_type, $path_type, $params_type, $query_type, $error_type
+	$page_type, $page_host_type, $page_path_type, $page_params_type, $page_query_type, $page_error_type
 } from './page'
 export function _page_b<C extends object = object>(ctx:C) {
 	return _b('_page_ctx', ()=>{
 		let page:page_type, unsubscribe:Unsubscriber
-		const { store: host, set: set_host } = _readable_set_ctx<$host_type>(null)
-		const { store: path, set: set_path } = _readable_set_ctx<$path_type>(null)
-		const { store: params, set: set_params } = _readable_set_ctx<$params_type>(null)
-		const { store: query, set: set_query } = _readable_set_ctx<$query_type>(null)
-		const { store: error, set: set_error } = _readable_set_ctx<$error_type>(null)
+		const { store: host, set: set_host } = _readable_set_ctx<$page_host_type>(null)
+		const { store: path, set: set_path } = _readable_set_ctx<$page_path_type>(null)
+		const { store: params, set: set_params } = _readable_set_ctx<$page_params_type>(null)
+		const { store: query, set: set_query } = _readable_set_ctx<$page_query_type>(null)
+		const { store: error, set: set_error } = _readable_set_ctx<$page_error_type>(null)
 		return assign(_page, {
 			set, host, path, params, query, error,
 		}) as unknown as _page_type
@@ -41,17 +41,17 @@ export interface page_type {
 	set:page_set_type
 	subscribe:page_subscribe_type
 }
-export interface host_type extends Readable<$host_type> {}
-export interface path_type extends Readable<$path_type> {}
-export interface params_type extends Readable<$params_type> {}
-export interface query_type extends Readable<$query_type> {}
-export interface error_type extends Readable<$error_type> {}
+export interface page_host_type extends Readable<$page_host_type> {}
+export interface page_path_type extends Readable<$page_path_type> {}
+export interface page_params_type extends Readable<$page_params_type> {}
+export interface page_query_type extends Readable<$page_query_type> {}
+export interface page_error_type extends Readable<$page_error_type> {}
 export interface _page_type {
 	():$page_type
 	set(in_page:page_type):void
-	host:host_type
-	path:path_type
-	params:params_type
-	query:query_type
-	error:error_type
+	host:page_host_type
+	path:page_path_type
+	params:page_params_type
+	query:page_query_type
+	error:page_error_type
 }

@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 9.3.0
+
+### Minor Changes
+
+- error_b=>page_error_b,host_b=>page_host_b,path_b=>page_path_b,query_b=>page_query_b
+
 ## 9.2.0
 
 ### Minor Changes
