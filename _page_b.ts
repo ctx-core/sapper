@@ -4,7 +4,7 @@ import type {
 	$page_type, $page_host_type, $page_path_type, $page_params_type, $page_query_type, $page_error_type
 } from './page'
 export function _page_b<C extends object = object>(ctx:C) {
-	return _b('_page_ctx', ()=>{
+	return _b('_page', ()=>{
 		let page:page_type, unsubscribe:Unsubscriber
 		const { store: host, set: set_host } = _readable_set_ctx<$page_host_type>(null)
 		const { store: path, set: set_path } = _readable_set_ctx<$page_path_type>(null)
@@ -36,11 +36,12 @@ export type page_notify_type = ()=>void
 export type page_set_type = (new_value:$page_type)=>void
 export type page_subscribe_fn_type = (new_value:$page_type)=>void
 export type page_subscribe_type = (run:page_subscribe_fn_type)=>Unsubscriber
-export interface page_type {
+export interface page_I {
 	notify:page_notify_type
 	set:page_set_type
 	subscribe:page_subscribe_type
 }
+export type page_type = page_I | Readable<$page_type>
 export interface page_host_type extends Readable<$page_host_type> {}
 export interface page_path_type extends Readable<$page_path_type> {}
 export interface page_params_type extends Readable<$page_params_type> {}

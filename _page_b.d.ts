@@ -5,11 +5,12 @@ export declare type page_notify_type = () => void;
 export declare type page_set_type = (new_value: $page_type) => void;
 export declare type page_subscribe_fn_type = (new_value: $page_type) => void;
 export declare type page_subscribe_type = (run: page_subscribe_fn_type) => Unsubscriber;
-export interface page_type {
+export interface page_I {
     notify: page_notify_type;
     set: page_set_type;
     subscribe: page_subscribe_type;
 }
+export declare type page_type = page_I | Readable<$page_type>;
 export interface page_host_type extends Readable<$page_host_type> {
 }
 export interface page_path_type extends Readable<$page_path_type> {

@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 9.4.0
+
+### Minor Changes
+
+- type page_type = page_I | Readable<\$page_type>: support \_page_b(ctx).set(page) in sapper preload functions
+
 ## 9.3.2
 
 ### Patch Changes
