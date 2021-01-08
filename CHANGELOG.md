@@ -1,5 +1,15 @@
 # @ctx-core/sapper
 
+## 9.0.0
+
+### Major Changes
+
+- \_page_b instead of sapper_page_b,sapper_path_b
+
+### Minor Changes
+
+- feat: \_page_b: set, host, path, params, query, error
+
 ## 8.5.2
 
 ### Patch Changes
