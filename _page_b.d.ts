@@ -21,7 +21,7 @@ export interface page_query_type extends Readable<$page_query_type> {
 export interface page_error_type extends Readable<$page_error_type> {
 }
 export interface _page_type {
-    (): $page_type;
+    (): page_type;
     set(in_page: page_type): void;
     host: page_host_type;
     path: page_path_type;

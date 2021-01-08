@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 9.3.2
+
+### Patch Changes
+
+- fix: \_page_type return type: page_type
+
 ## 9.3.1
 
 ### Patch Changes
