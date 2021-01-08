@@ -1,5 +1,12 @@
 # @ctx-core/sapper
 
+## 9.2.0
+
+### Minor Changes
+
+- \$params_type extends Record<string, string|number>
+- \$query_type extends Record<string, string|number|boolean>
+
 ## 9.1.0
 
 ### Minor Changes
