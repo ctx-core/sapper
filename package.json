@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "9.4.7",
+	"version": "9.4.8",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
@@ -30,7 +30,7 @@
 		"@ctx-core/array": "workspace:^19.2.2",
 		"@ctx-core/function": "workspace:^16.9.1",
 		"@ctx-core/object": "workspace:^16.0.4",
-		"@ctx-core/store": "workspace:^23.3.4",
+		"@ctx-core/store": "workspace:^23.4.0",
 		"resolve": "^1.19.0",
 		"sapper": "0.28.10",
 		"svelte": "3.31.2"
