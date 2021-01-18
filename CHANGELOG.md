@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 9.4.10
+
+### Patch Changes
+
+- - event_log.add
+
 ## 9.4.9
 
 ### Patch Changes
