@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 9.4.11
+
+### Patch Changes
+
+- sapper: 0.28.10 -> 0.29.0
+
 ## 9.4.10
 
 ### Patch Changes
