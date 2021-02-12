@@ -1,5 +1,15 @@
 # @ctx-core/sapper
 
+## 10.0.15
+
+### Patch Changes
+
+- resolve: ^1.19.0 -> ^1.20.0
+- svelte: 3.32.2 -> 3.32.3
+- Updated dependencies [undefined]
+  - @ctx-core/store@24.0.14
+  - @ctx-core/event-log@2.0.14
+
 ## 10.0.14
 
 ### Patch Changes
