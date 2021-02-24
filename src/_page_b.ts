@@ -2,26 +2,26 @@ import { _b, assign } from '@ctx-core/object'
 import { _readable_set_ctx, Readable, Unsubscriber } from '@ctx-core/store'
 import { event_log_b } from '@ctx-core/event-log'
 import type {
-	$page_type, $page_host_type, $page_path_type, $page_params_type, $page_query_type, $page_error_type
+	$page_T, $page_host_T, $page_path_T, $page_params_T, $page_query_T, $page_error_T
 } from './page'
-export function _page_b<C extends object = object>(ctx:C) {
+export function _page_b<Ctx extends object = object>(ctx:Ctx) {
 	return _b('_page', ()=>{
-		let page:page_type, unsubscribe:Unsubscriber
+		let page:page_T, unsubscribe:Unsubscriber
 		const event_log = event_log_b(ctx)
-		const { store: host, set: set_host } = _readable_set_ctx<$page_host_type>(null)
-		host.subscribe($host => event_log.add({ $host }))
-		const { store: path, set: set_path } = _readable_set_ctx<$page_path_type>(null)
-		path.subscribe($path => event_log.add({ $path }))
-		const { store: params, set: set_params } = _readable_set_ctx<$page_params_type>(null)
-		params.subscribe($params => event_log.add({ $params }))
-		const { store: query, set: set_query } = _readable_set_ctx<$page_query_type>(null)
-		query.subscribe($query => event_log.add({ $query }))
-		const { store: error, set: set_error } = _readable_set_ctx<$page_error_type>(null)
-		error.subscribe($error => event_log.add({ $error }))
+		const { store: host, set: set_host } = _readable_set_ctx<$page_host_T>(null)
+		host.subscribe($host=>event_log.add({ $host }))
+		const { store: path, set: set_path } = _readable_set_ctx<$page_path_T>(null)
+		path.subscribe($path=>event_log.add({ $path }))
+		const { store: params, set: set_params } = _readable_set_ctx<$page_params_T>(null)
+		params.subscribe($params=>event_log.add({ $params }))
+		const { store: query, set: set_query } = _readable_set_ctx<$page_query_T>(null)
+		query.subscribe($query=>event_log.add({ $query }))
+		const { store: error, set: set_error } = _readable_set_ctx<$page_error_T>(null)
+		error.subscribe($error=>event_log.add({ $error }))
 		return assign(_page, {
 			set, host, path, params, query, error,
 		}) as unknown as _page_type
-		function set(in_page:page_type) {
+		function set(in_page:page_T) {
 			if (unsubscribe) {
 				unsubscribe()
 			}
@@ -35,32 +35,42 @@ export function _page_b<C extends object = object>(ctx:C) {
 				set_error($page && $page.error)
 			})
 		}
-		function _page():page_type {
+		function _page():page_T {
 			return page
 		}
 	})(ctx)
 }
-export type page_notify_type = ()=>void
-export type page_set_type = (new_value:$page_type)=>void
-export type page_subscribe_fn_type = (new_value:$page_type)=>void
-export type page_subscribe_type = (run:page_subscribe_fn_type)=>Unsubscriber
+export type page_notify_T = ()=>void
+export type page_notify_type = page_notify_T
+export type page_set_T = (new_value:$page_T)=>void
+export type page_set_type = page_set_T
+export type page_subscribe_fn_T = (new_value:$page_T)=>void
+export type page_subscribe_fn_type = page_subscribe_fn_T
+export type page_subscribe_T = (run:page_subscribe_fn_T)=>Unsubscriber
+export type page_subscribe_type = page_subscribe_T
 export interface page_I {
-	notify:page_notify_type
-	set:page_set_type
-	subscribe:page_subscribe_type
+	notify:page_notify_T
+	set:page_set_T
+	subscribe:page_subscribe_T
 }
-export type page_type = page_I | Readable<$page_type>
-export interface page_host_type extends Readable<$page_host_type> {}
-export interface page_path_type extends Readable<$page_path_type> {}
-export interface page_params_type extends Readable<$page_params_type> {}
-export interface page_query_type extends Readable<$page_query_type> {}
-export interface page_error_type extends Readable<$page_error_type> {}
+export type page_T = page_I|Readable<$page_T>
+export type page_type = page_T
+export interface page_host_T extends Readable<$page_host_T> {}
+export type page_host_type = page_host_T
+export interface page_path_T extends Readable<$page_path_T> {}
+export type page_path_type = page_path_T
+export interface page_params_T extends Readable<$page_params_T> {}
+export type page_params_type = page_params_T
+export interface page_query_T extends Readable<$page_query_T> {}
+export type page_query_type = page_query_T
+export interface page_error_T extends Readable<$page_error_T> {}
+export type page_error_type = page_error_T
 export interface _page_type {
-	():page_type
-	set(in_page:page_type):void
-	host:page_host_type
-	path:page_path_type
-	params:page_params_type
-	query:page_query_type
-	error:page_error_type
+	():page_T
+	set(in_page:page_T):void
+	host:page_host_T
+	path:page_path_T
+	params:page_params_T
+	query:page_query_T
+	error:page_error_T
 }

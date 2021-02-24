@@ -5,7 +5,7 @@ import fs from 'fs'
 /**
  * GET asset
  */
-export function _get_asset(opts:_get_asset_opts_type) {
+export function _get_asset(opts:_get_asset_opts_T) {
 	const { asset_key, root_dir } = opts
 	return get_asset
 	async function get_asset(_, res) {
@@ -44,8 +44,11 @@ export function _get_asset(opts:_get_asset_opts_type) {
 		}
 	}
 }
-export const _get__asset = _get_asset
-export interface _get_asset_opts_type {
+export {
+	_get_asset as _get__asset
+}
+export interface _get_asset_opts_T {
 	asset_key:string,
 	root_dir:string,
 }
+export type _get_asset_opts_type = _get_asset_opts_T
