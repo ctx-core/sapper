@@ -1,5 +1,17 @@
 # @ctx-core/sapper
 
+## 10.1.11
+
+### Patch Changes
+
+- typescript: ^4.2.2 -> ^4.2.3
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.1.18
+  - @ctx-core/event-log@2.0.28
+  - @ctx-core/function@17.4.1
+  - @ctx-core/object@17.3.1
+  - @ctx-core/store@24.1.10
+
 ## 10.1.10
 
 ### Patch Changes
