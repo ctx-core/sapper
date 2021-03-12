@@ -1,7 +1,7 @@
 import type { $page_T, Page } from './page'
 import type { PreloadContext } from './PreloadContext'
 import type { $session_T } from './session'
-// Use Preload from @sapper/common when https://github.com/sveltejs/sapper/issues/1583 is solved
+// Use Preload from @sapper/common when https://github.com/sveltejs/sapper/issues/1745 is solved
 export interface Preload {
 	(this:PreloadContext, page:Page, session:any):object|Promise<object>
 }

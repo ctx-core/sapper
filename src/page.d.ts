@@ -1,16 +1,17 @@
-export interface Page {
+export interface PageContext {
     host: $page_host_T;
     path: $page_path_T;
     params: $page_params_T;
     query: $page_query_T;
     error?: $page_error_T;
 }
+export { PageContext as Page };
 export declare type $page_host_T = string;
 export declare type $page_host_type = $page_host_T;
 export declare type $page_path_T = string;
 export declare type $page_path_type = $page_path_T;
-export declare type PreloadPage = Page;
-export declare type $page_T = Page;
+export declare type PreloadPage = PageContext;
+export declare type $page_T = PageContext;
 export declare type $page_type = $page_T;
 export interface $page_params_T extends Record<string, string | number> {
 }
