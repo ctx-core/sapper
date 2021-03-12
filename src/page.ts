@@ -7,7 +7,7 @@ export interface PageContext {
 	query:$page_query_T
 	error?:$page_error_T
 }
-export {
+export type {
 	PageContext as Page
 }
 export type $page_host_T = string

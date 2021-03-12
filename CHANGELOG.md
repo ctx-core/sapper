@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 10.2.1
+
+### Patch Changes
+
+- fix: export type { PageContext as Page }
+
 ## 10.2.0
 
 ### Minor Changes

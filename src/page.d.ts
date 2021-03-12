@@ -5,7 +5,7 @@ export interface PageContext {
     query: $page_query_T;
     error?: $page_error_T;
 }
-export { PageContext as Page };
+export type { PageContext as Page };
 export declare type $page_host_T = string;
 export declare type $page_host_type = $page_host_T;
 export declare type $page_path_T = string;
