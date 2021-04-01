@@ -33,7 +33,7 @@
 		"@ctx-core/object": "workspace:^17.4.3",
 		"@ctx-core/store": "workspace:^24.1.16",
 		"resolve": "^1.20.0",
-		"svelte": "3.35.0"
+		"svelte": "3.37.0"
 	},
 	"devDependencies": {
 		"sapper": "0.29.1",
