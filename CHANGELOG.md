@@ -1,5 +1,15 @@
 # @ctx-core/sapper
 
+## 10.2.10
+
+### Patch Changes
+
+- @ctx-core/object: 17.5.5
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.7
+  - @ctx-core/event-log@2.0.39
+  - @ctx-core/store@24.1.21
+
 ## 10.2.9
 
 ### Patch Changes
