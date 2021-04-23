@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "10.2.14",
+	"version": "10.2.15",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
@@ -27,11 +27,11 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.2.9",
-		"@ctx-core/event-log": "workspace:^2.0.42",
+		"@ctx-core/array": "workspace:^20.2.10",
+		"@ctx-core/event-log": "workspace:^2.0.43",
 		"@ctx-core/function": "workspace:^17.4.7",
-		"@ctx-core/object": "workspace:^17.5.7",
-		"@ctx-core/store": "workspace:^24.2.2",
+		"@ctx-core/object": "workspace:^17.5.8",
+		"@ctx-core/store": "workspace:^24.2.3",
 		"resolve": "^1.20.0",
 		"svelte": "3.37.0"
 	},
