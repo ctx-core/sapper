@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 10.2.26
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/event-log@2.0.54
+
 ## 10.2.25
 
 ### Patch Changes
