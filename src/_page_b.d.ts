@@ -1,4 +1,4 @@
-import { Readable, Unsubscriber } from '@ctx-core/store';
+import { Readable$, Unsubscriber } from '@ctx-core/store';
 import type { $page_T, $page_host_T, $page_path_T, $page_params_T, $page_query_T, $page_error_T } from './page';
 export declare function _page_b<Ctx extends object = object>(ctx: Ctx): _page_type;
 export declare type page_notify_T = () => void;
@@ -14,21 +14,21 @@ export interface page_I {
     set: page_set_T;
     subscribe: page_subscribe_T;
 }
-export declare type page_T = page_I | Readable<$page_T>;
+export declare type page_T = page_I | Readable$<$page_T>;
 export declare type page_type = page_T;
-export interface page_host_T extends Readable<$page_host_T> {
+export interface page_host_T extends Readable$<$page_host_T> {
 }
 export declare type page_host_type = page_host_T;
-export interface page_path_T extends Readable<$page_path_T> {
+export interface page_path_T extends Readable$<$page_path_T> {
 }
 export declare type page_path_type = page_path_T;
-export interface page_params_T extends Readable<$page_params_T> {
+export interface page_params_T extends Readable$<$page_params_T> {
 }
 export declare type page_params_type = page_params_T;
-export interface page_query_T extends Readable<$page_query_T> {
+export interface page_query_T extends Readable$<$page_query_T> {
 }
 export declare type page_query_type = page_query_T;
-export interface page_error_T extends Readable<$page_error_T> {
+export interface page_error_T extends Readable$<$page_error_T> {
 }
 export declare type page_error_type = page_error_T;
 export interface _page_type {
