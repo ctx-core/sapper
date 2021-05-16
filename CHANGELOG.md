@@ -1,5 +1,17 @@
 # @ctx-core/sapper
 
+## 10.4.3
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.2
+  - @ctx-core/event-log@2.1.3
+  - @ctx-core/function@17.9.2
+  - @ctx-core/object@17.6.2
+  - @ctx-core/store@24.8.2
+
 ## 10.4.2
 
 ### Patch Changes
