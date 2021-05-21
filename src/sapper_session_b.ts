@@ -1,14 +1,14 @@
-import { _b, B } from '@ctx-core/object'
+import { _b } from '@ctx-core/object'
 import { writable$, Writable$ } from '@ctx-core/store'
-export const sapper_session_b:sapper_session_b_T = _b('sapper_session', ()=>
+const key = 'sapper_session'
+export interface sapper_session_ctx_I {
+	sapper_session?:sapper_session_T
+}
+export const sapper_session_b = _b<sapper_session_ctx_I, typeof key>(key, ()=>
 	writable$(undefined) as sapper_session_T
 )
 export type $sapper_session_T = undefined|object
-export type $sapper_session_type = $sapper_session_T
 export interface sapper_session_T extends Writable$<$sapper_session_T> {}
-export type sapper_session_type = sapper_session_T
-export interface sapper_session_b_T extends B<sapper_session_T> {}
-export type sapper_session_b_type = sapper_session_b_T
 export {
 	sapper_session_b as b__session__sapper,
 }
