@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 10.4.6
+
+### Patch Changes
+
+- \_ctx_I->\_Ctx
+- Updated dependencies [undefined]
+  - @ctx-core/event-log@2.1.6
+
 ## 10.4.5
 
 ### Patch Changes

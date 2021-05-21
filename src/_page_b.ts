@@ -1,15 +1,15 @@
 import { _b, assign } from '@ctx-core/object'
 import { _readable_set_ctx$, Readable$, Unsubscriber } from '@ctx-core/store'
-import { event_log_b, event_log_ctx_I } from '@ctx-core/event-log'
+import { event_log_b, event_log_Ctx } from '@ctx-core/event-log'
 import type {
 	$page_T, $page_host_T, $page_path_T, $page_params_T, $page_query_T, $page_error_T
 } from './page'
 const key = '_page'
-export interface _page_ctx_I extends event_log_ctx_I {
+export interface _page_Ctx extends event_log_Ctx {
 	_page?:_page_T
 }
-export function _page_b(ctx:_page_ctx_I) {
-	return _b<_page_ctx_I, typeof key>(key, ()=>{
+export function _page_b(ctx:_page_Ctx) {
+	return _b<_page_Ctx, typeof key>(key, ()=>{
 		let page:page_T, unsubscribe:Unsubscriber
 		const event_log = event_log_b(ctx)
 		const { store: host, set: set_host } = _readable_set_ctx$<null|$page_host_T>(null)
