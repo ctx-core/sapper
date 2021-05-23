@@ -8,6 +8,7 @@ export * from './page_path_b';
 export * from './page_query_b';
 export * from './preload';
 export * from './PreloadContext';
+export * from './sapper_Ctx';
 export * from './session';
 export * from './sapper_preloading_b';
 export * from './sapper_session_b';

@@ -1,10 +1,7 @@
 import { Readable$, Unsubscriber } from '@ctx-core/store';
-import { event_log_Ctx } from '@ctx-core/event-log';
 import type { $page_T, $page_host_T, $page_path_T, $page_params_T, $page_query_T, $page_error_T } from './page';
-export interface _page_Ctx extends event_log_Ctx {
-    _page?: _page_T;
-}
-export declare function _page_b(ctx: _page_Ctx): _page_T;
+import type { sapper_Ctx } from './sapper_Ctx';
+export declare function _page_b(ctx: sapper_Ctx): _page_T;
 export declare type page_notify_T = () => void;
 export declare type page_set_T = (new_value: $page_T) => void;
 export declare type page_subscribe_fn_T = (new_value: $page_T) => void;

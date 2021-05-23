@@ -1,2 +1,3 @@
-import { _page_Ctx, page_error_T } from './_page_b';
-export declare function page_error_b(ctx: _page_Ctx): page_error_T;
+import { page_error_T } from './_page_b';
+import type { sapper_Ctx } from './sapper_Ctx';
+export declare function page_error_b(ctx: sapper_Ctx): page_error_T;
