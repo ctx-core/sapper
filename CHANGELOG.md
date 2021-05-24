@@ -1,5 +1,17 @@
 # @ctx-core/sapper
 
+## 10.6.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.1
+  - @ctx-core/event-log@2.3.1
+  - @ctx-core/function@17.10.1
+  - @ctx-core/object@18.1.1
+  - @ctx-core/store@24.9.1
+
 ## 10.6.0
 
 ### Minor Changes
