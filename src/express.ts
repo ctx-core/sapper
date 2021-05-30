@@ -32,11 +32,11 @@ export function _get_asset(opts:_get_asset_opts_T) {
 			return asset_body_a1.join('\n')
 		}
 		function _asset_body_promise_a1() {
-			const promise_a1 = [] as Promise<Buffer>[]
+			const promise_a = [] as Promise<Buffer>[]
 			for (let i = 0; i < relative_path_a1.length; i++) {
-				promise_a1.push(_asset_body(relative_path_a1[i]))
+				promise_a.push(_asset_body(relative_path_a1[i]))
 			}
-			return promise_a1
+			return promise_a
 		}
 		async function _asset_body(relative_path:string) {
 			const resolved_path =
