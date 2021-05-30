@@ -17,8 +17,8 @@ export type page_path_T = string
 export type $page_path_T = page_path_T
 export type $page_path_type = page_path_T
 export type PreloadPage = PageContext
-export type $page_T = PageContext
-export type $page_type = $page_T
+export type page_T = PageContext
+export type $page_type = page_T
 export interface page_params_T extends Record<string, string|number> {}
 export type $page_params_T = page_params_T
 export type $page_params_type = page_params_T

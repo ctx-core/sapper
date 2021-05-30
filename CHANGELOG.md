@@ -1,5 +1,18 @@
 # @ctx-core/sapper
 
+## 11.0.2
+
+### Patch Changes
+
+- \$page_T->page_T
+- page_T->page\$\_T
+
+## 11.0.1
+
+### Patch Changes
+
+- page_T->page$_T,$page_T->page_T
+
 ## 11.0.0
 
 ### Major Changes

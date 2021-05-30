@@ -1,8 +1,8 @@
-import { _b, assign } from '@ctx-core/object'
+import { be_, assign } from '@ctx-core/object'
 import { _readable_set_ctx$, Readable$, Unsubscriber } from '@ctx-core/store'
 import { event_log$_b } from '@ctx-core/event-log'
 import type {
-	$page_T, page_host_T, page_path_T, page_params_T, page_query_T, page_error_T
+	page_T, page_host_T, page_path_T, page_params_T, page_query_T, page_error_T
 } from './page'
 import type { sapper_Ctx } from './sapper_Ctx'
 import type { page_host$_T } from './page_host$_b'
@@ -12,8 +12,8 @@ import type { page_query$_T } from './page_query$_b'
 import type { page_error$_T } from './page_error$_b'
 const key = 'page_'
 export function page__b(ctx:sapper_Ctx) {
-	return _b<sapper_Ctx, typeof key>(key, ()=>{
-		let page:page_T, unsubscribe:Unsubscriber
+	return be_<sapper_Ctx, typeof key>(key, ()=>{
+		let page:page$_T, unsubscribe:Unsubscriber
 		const event_log$ = event_log$_b(ctx)
 		const { store: host, set: set_host } = _readable_set_ctx$<null|page_host_T>(null)
 		host.subscribe($host=>event_log$.add({ $host }))
@@ -28,7 +28,7 @@ export function page__b(ctx:sapper_Ctx) {
 		return assign(page_, {
 			set, host, path, params, query, error,
 		}) as unknown as page__T
-		function set(in_page:page_T) {
+		function set(in_page:page$_T) {
 			if (unsubscribe) {
 				unsubscribe()
 			}
@@ -42,24 +42,24 @@ export function page__b(ctx:sapper_Ctx) {
 				set_error($page && $page.error)
 			})
 		}
-		function page_():page_T {
+		function page_():page$_T {
 			return page
 		}
 	})(ctx)
 }
 export type page_notify_T = ()=>void
-export type page_set_T = (new_value:$page_T)=>void
-export type page_subscribe_fn_T = (new_value:$page_T)=>void
+export type page_set_T = (new_value:page_T)=>void
+export type page_subscribe_fn_T = (new_value:page_T)=>void
 export type page_subscribe_T = (run:page_subscribe_fn_T)=>Unsubscriber
 export interface page_I {
 	notify:page_notify_T
 	set:page_set_T
 	subscribe:page_subscribe_T
 }
-export type page_T = page_I|Readable$<$page_T>
+export type page$_T = Readable$<page_T>&page_I
 export interface page__T {
-	():page_T
-	set(in_page:page_T):void
+	():page$_T
+	set(in_page:page$_T):void
 	host$:page_host$_T
 	path$:page_path$_T
 	params$:page_params$_T
