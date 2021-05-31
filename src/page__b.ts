@@ -1,5 +1,5 @@
 import { be_, assign } from '@ctx-core/object'
-import { _readable_set_ctx$, Readable$, Unsubscriber } from '@ctx-core/store'
+import { readable$_set_ctx_, Readable$, Unsubscriber } from '@ctx-core/store'
 import { event_log$_b } from '@ctx-core/event-log'
 import type {
 	page_T, page_host_T, page_path_T, page_params_T, page_query_T, page_error_T
@@ -15,15 +15,15 @@ export function page__b(ctx:sapper_Ctx) {
 	return be_<sapper_Ctx, typeof key>(key, ()=>{
 		let page:page$_T, unsubscribe:Unsubscriber
 		const event_log$ = event_log$_b(ctx)
-		const { store: host, set: set_host } = _readable_set_ctx$<null|page_host_T>(null)
+		const { store: host, set: set_host } = readable$_set_ctx_<null|page_host_T>(null)
 		host.subscribe($host=>event_log$.add({ $host }))
-		const { store: path, set: set_path } = _readable_set_ctx$<null|page_path_T>(null)
+		const { store: path, set: set_path } = readable$_set_ctx_<null|page_path_T>(null)
 		path.subscribe($path=>event_log$.add({ $path }))
-		const { store: params, set: set_params } = _readable_set_ctx$<null|page_params_T>(null)
+		const { store: params, set: set_params } = readable$_set_ctx_<null|page_params_T>(null)
 		params.subscribe($params=>event_log$.add({ $params }))
-		const { store: query, set: set_query } = _readable_set_ctx$<null|page_query_T>(null)
+		const { store: query, set: set_query } = readable$_set_ctx_<null|page_query_T>(null)
 		query.subscribe($query=>event_log$.add({ $query }))
-		const { store: error, set: set_error } = _readable_set_ctx$<null|page_error_T>(null)
+		const { store: error, set: set_error } = readable$_set_ctx_<null|page_error_T>(null)
 		error.subscribe($error=>event_log$.add({ $error }))
 		return assign(page_, {
 			set, host, path, params, query, error,
