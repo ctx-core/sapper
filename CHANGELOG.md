@@ -1,5 +1,21 @@
 # @ctx-core/sapper
 
+## 11.0.9
+
+### Patch Changes
+
+- _b->be_
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.0.4
+  - @ctx-core/event-log@3.0.2
+  - @ctx-core/object@19.0.2
+
+## 11.0.8
+
+### Patch Changes
+
+- fix: \_b: B types
+
 ## 11.0.7
 
 ### Patch Changes
@@ -1896,7 +1912,7 @@
 
 ### Patch Changes
 
-- explicitly setting B types when \_b is invoked
+- explicitly setting B types when \be\_ is invoked
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
   - @ctx-core/object@12.0.9

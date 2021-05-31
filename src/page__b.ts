@@ -11,7 +11,7 @@ import type { page_params$_T } from './page_params$_b'
 import type { page_query$_T } from './page_query$_b'
 import type { page_error$_T } from './page_error$_b'
 const key = 'page_'
-export function page__b(ctx:sapper_Ctx) {
+export function page__b(ctx:sapper_Ctx):page$__T {
 	return be_<sapper_Ctx, typeof key>(key, ()=>{
 		let page$:page$_T, unsubscribe:Unsubscriber
 		const event_log$ = event_log$_b(ctx)

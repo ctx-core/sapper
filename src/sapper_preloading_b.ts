@@ -1,8 +1,8 @@
-import { _b } from '@ctx-core/object'
+import { be_, B } from '@ctx-core/object'
 import { writable$, Writable$ } from '@ctx-core/store'
 import type { sapper_Ctx } from './sapper_Ctx'
 const key = 'sapper_preloading'
-export const sapper_preloading_b = _b<sapper_Ctx, typeof key>(key, ()=>
+export const sapper_preloading_b:B<sapper_Ctx, typeof key> = be_<sapper_Ctx, typeof key>(key, ()=>
 	writable$(undefined) as sapper_preloading_T
 )
 export type $sapper_preloading_T = object
