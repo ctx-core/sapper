@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 11.0.7
+
+### Patch Changes
+
+- interface page$_T extends Readable$<page_T>, page_I
+
 ## 11.0.6
 
 ### Patch Changes

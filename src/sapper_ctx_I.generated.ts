@@ -3,7 +3,7 @@
 */
 import { _b } from '@ctx-core/object'
 import type { sapper_Ctx } from './sapper_Ctx'
-import type { page__T } from './page__b'
+import type { page$__T } from './page__b'
 import { page__b } from './page__b'
 import type { page_error$_T } from './page_error$_b'
 import { page_error$_b } from './page_error$_b'
@@ -20,7 +20,7 @@ import { sapper_preloading_b } from './sapper_preloading_b'
 import type { sapper_session_T } from './sapper_session_b'
 import { sapper_session_b } from './sapper_session_b'
 export interface sapper_ctx_I {
-	page_?:page__T
+	page_?:page$__T
 	page_error$?:page_error$_T
 	page_host$?:page_host$_T
 	page_params$?:page_params$_T
@@ -31,7 +31,7 @@ export interface sapper_ctx_I {
 	sapper_b_h?:sapper_b_h_T
 }
 export interface sapper_b_h_T {
-	get page_():page__T
+	get page_():page$__T
 	get page_error$():page_error$_T
 	get page_host$():page_host$_T
 	get page_params$():page_params$_T
