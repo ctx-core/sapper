@@ -6,4 +6,4 @@ export function page_error$_b(ctx:sapper_Ctx):page_error$_T {
 	const _page = page__b(ctx)
 	return _page.error$
 }
-export interface page_error$_T extends Readable$<page_error_T> {}
+export interface page_error$_T extends Readable$<page_error_T|undefined> {}

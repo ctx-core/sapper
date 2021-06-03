@@ -6,4 +6,4 @@ export function page_host$_b(ctx:sapper_Ctx):page_host$_T {
 	const page_ = page__b(ctx)
 	return page_.host$
 }
-export interface page_host$_T extends Readable$<page_host_T> {}
+export interface page_host$_T extends Readable$<page_host_T|undefined> {}

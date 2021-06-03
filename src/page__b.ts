@@ -15,19 +15,19 @@ export function page__b(ctx:sapper_Ctx):page$__T {
 	return be_<sapper_Ctx, typeof key>(key, ()=>{
 		let page$:page$_T, unsubscribe:Unsubscriber
 		const event_log$ = event_log$_b(ctx)
-		const { store: host, set: set_host } = readable$_set_ctx_<null|page_host_T>(null)
-		host.subscribe($host=>event_log$.add({ $host }))
-		const { store: path, set: set_path } = readable$_set_ctx_<null|page_path_T>(null)
-		path.subscribe($path=>event_log$.add({ $path }))
-		const { store: params, set: set_params } = readable$_set_ctx_<null|page_params_T>(null)
-		params.subscribe($params=>event_log$.add({ $params }))
-		const { store: query, set: set_query } = readable$_set_ctx_<null|page_query_T>(null)
-		query.subscribe($query=>event_log$.add({ $query }))
-		const { store: error, set: set_error } = readable$_set_ctx_<null|page_error_T>(null)
-		error.subscribe($error=>event_log$.add({ $error }))
+		const { store: host$, set: set_host } = readable$_set_ctx_<page_host_T|undefined>(undefined)
+		host$.subscribe(host=>event_log$.add({ host }))
+		const { store: path$, set: set_path } = readable$_set_ctx_<page_path_T|undefined>(undefined)
+		path$.subscribe(path=>event_log$.add({ path }))
+		const { store: params$, set: set_params } = readable$_set_ctx_<page_params_T|undefined>(undefined)
+		params$.subscribe(params=>event_log$.add({ params }))
+		const { store: query$, set: set_query } = readable$_set_ctx_<page_query_T|undefined>(undefined)
+		query$.subscribe(query=>event_log$.add({ query }))
+		const { store: error$, set: set_error } = readable$_set_ctx_<page_error_T|undefined>(undefined)
+		error$.subscribe(error=>event_log$.add({ error }))
 		return assign(page$_, {
-			set, host, path, params, query, error,
-		}) as unknown as page$__T
+			set, host$, path$, params$, query$, error$,
+		} as page$__I) as page$__T
 		function set(in_page:page$_T) {
 			if (unsubscribe) {
 				unsubscribe()
@@ -61,8 +61,7 @@ export interface page$_T extends Readable$<page_T>, page_I {
 	set:page_set_T
 	subscribe:page_subscribe_T
 }
-export interface page$__T {
-	():page$_T
+export interface page$__I {
 	set(in_page:page$_T):void
 	host$:page_host$_T
 	path$:page_path$_T
@@ -70,3 +69,4 @@ export interface page$__T {
 	query$:page_query$_T
 	error$:page_error$_T
 }
+export type page$__T = (()=>page$_T)&page$__I
