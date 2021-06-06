@@ -1,5 +1,17 @@
 # @ctx-core/sapper
 
+## 11.0.27
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/event-log@3.0.12
+  - @ctx-core/function@18.1.2
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+
 ## 11.0.26
 
 ### Patch Changes
@@ -105,7 +117,7 @@
 
 ### Patch Changes
 
-- fix: page\\\\\\\\\\\\\\_\\\\\\\\\\\\\\_b: host\\\\\\\\\\\\\$,path\\\\\\\\\\\\\$,params\\\\\\\\\\\\\$,query\\\\\\\\\\\\\$,error\$
+- fix: page\\\\\\\\\\\\\\\_\\\\\\\\\\\\\\\_b: host\\\\\\\\\\\\\\$,path\\\\\\\\\\\\\\$,params\\\\\\\\\\\\\\$,query\\\\\\\\\\\\\\$,error\$
 
 ## 11.0.13
 
