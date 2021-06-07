@@ -1,5 +1,17 @@
 # @ctx-core/sapper
 
+## 11.0.28
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/event-log@3.0.13
+  - @ctx-core/array@21.2.7
+  - @ctx-core/function@18.1.3
+  - @ctx-core/object@19.1.3
+  - @ctx-core/store@25.1.13
+
 ## 11.0.27
 
 ### Patch Changes
@@ -117,7 +129,7 @@
 
 ### Patch Changes
 
-- fix: page\\\\\\\\\\\\\\\_\\\\\\\\\\\\\\\_b: host\\\\\\\\\\\\\\$,path\\\\\\\\\\\\\\$,params\\\\\\\\\\\\\\$,query\\\\\\\\\\\\\\$,error\$
+- fix: page\\\\\\\\\\\\\\\\_\\\\\\\\\\\\\\\\_b: host\\\\\\\\\\\\\\\$,path\\\\\\\\\\\\\\\$,params\\\\\\\\\\\\\\\$,query\\\\\\\\\\\\\\\$,error\$
 
 ## 11.0.13
 
