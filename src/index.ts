@@ -1,6 +1,6 @@
-export * from './page__b'
 export * from './Goto'
 export * from './page'
+export * from './page$__b'
 export * from './page_error$_b'
 export * from './page_host$_b'
 export * from './page_params$_b'
