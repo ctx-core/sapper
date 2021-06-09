@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 11.0.36
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/event-log@3.0.18
+
 ## 11.0.35
 
 ### Patch Changes
@@ -189,7 +197,7 @@
 
 ### Patch Changes
 
-- fix: page\\\\\\\\\\\\\\\\\\\\\\\_\\\\\\\\\\\\\\\\\\\\\\\_b: host\\\\\\\\\\\\\\\\\\\\\\$,path\\\\\\\\\\\\\\\\\\\\\\$,params\\\\\\\\\\\\\\\\\\\\\\$,query\\\\\\\\\\\\\\\\\\\\\\$,error\$
+- fix: page\\\\\\\\\\\\\\\\\\\\\\\\_\\\\\\\\\\\\\\\\\\\\\\\\_b: host\\\\\\\\\\\\\\\\\\\\\\\$,path\\\\\\\\\\\\\\\\\\\\\\\$,params\\\\\\\\\\\\\\\\\\\\\\\$,query\\\\\\\\\\\\\\\\\\\\\\\$,error\$
 
 ## 11.0.13
 
