@@ -21,20 +21,20 @@ export function _get_asset(opts:_get_asset_opts_T) {
 		)
 		const { assets } = build
 		const relative_path_str = assets[asset_key]
-		const relative_path_a1 = flatten([relative_path_str])
+		const relative_path_a = flatten([relative_path_str])
 		res.writeHead(200, {
 			'Content-Type': 'application/javascript',
 		})
 		const body = await _body()
 		res.end(body)
 		async function _body() {
-			const asset_body_a1 = await Promise.all(_asset_body_promise_a1())
-			return asset_body_a1.join('\n')
+			const asset_body_a = await Promise.all(asset_body_promise_a_())
+			return asset_body_a.join('\n')
 		}
-		function _asset_body_promise_a1() {
+		function asset_body_promise_a_() {
 			const promise_a = [] as Promise<Buffer>[]
-			for (let i = 0; i < relative_path_a1.length; i++) {
-				promise_a.push(_asset_body(relative_path_a1[i]))
+			for (let i = 0; i < relative_path_a.length; i++) {
+				promise_a.push(_asset_body(relative_path_a[i]))
 			}
 			return promise_a
 		}
