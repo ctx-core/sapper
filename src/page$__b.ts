@@ -3,12 +3,12 @@ import { readable$_set_ctx_, Readable$, Unsubscriber } from '@ctx-core/store'
 import { event_log$_b } from '@ctx-core/event-log'
 import type {
 	page_T, page_host_T, page_path_T, page_params_T, page_query_T, page_error_T
-} from './page'
-import type { sapper_Ctx } from './sapper_Ctx'
-import type { page_host$_T } from './page_host$_b'
-import type { page_path$_T } from './page_path$_b'
-import type { page_params$_T } from './page_params$_b'
-import type { page_query$_T } from './page_query$_b'
+} from './page.js'
+import type { sapper_Ctx } from './sapper_Ctx.js'
+import type { page_host$_T } from './page_host$_b.js'
+import type { page_path$_T } from './page_path$_b.js'
+import type { page_params$_T } from './page_params$_b.js'
+import type { page_query$_T } from './page_query$_b.js'
 import type { page_error$_T } from './page_error$_b'
 const key = 'page$_'
 export function page$__b(ctx:sapper_Ctx):page$__T {
