@@ -1,8 +1,9 @@
+import { readFile } from 'fs/promises'
+import resolve from 'resolve'
 import { promisify } from 'util'
+const resolve_async = promisify(resolve)
 import type { Response } from 'express'
 import { flatten } from '@ctx-core/array'
-const resolve = promisify(require('resolve'))
-import fs from 'fs'
 /**
  * GET asset
  */
@@ -15,9 +16,9 @@ export function get_asset_(opts:get_asset__opts_T) {
 			(NODE_ENV === 'dev' || NODE_ENV === 'development')
 			? `${root_dir}/__sapper__/dev`
 			: `${root_dir}/__sapper__/build`
-		const build_path = await resolve(`${build_dir}/build.json`)
+		const build_path = (await resolve_async(`${build_dir}/build.json`)) as string
 		const build = JSON.parse(
-			(await fs.promises.readFile(build_path)).toString()
+			(await readFile(build_path)).toString()
 		)
 		const { assets } = build
 		const relative_path_str = assets[asset_key]
@@ -40,8 +41,8 @@ export function get_asset_(opts:get_asset__opts_T) {
 		}
 		async function asset_body_(relative_path:string) {
 			const resolved_path =
-				await resolve(`${build_dir}/client/${relative_path}`)
-			return fs.promises.readFile(resolved_path)
+				(await resolve_async(`${build_dir}/client/${relative_path}`)) as string
+			return readFile(resolved_path)
 		}
 	}
 }
