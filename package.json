@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "14.0.7",
+	"version": "14.0.8",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
@@ -28,23 +28,23 @@
 		"build": "npm run clean && npm run copy-mjs && npm run generate_ctx_I_file && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"copy-mjs": "cd dist && echo \"require = require('esm')(module)\nmodule.exports = require('./index.js')\" > index.cjs",
+		"copy-mjs": "cd dist && echo \"module.exports = (async () => import('./index.js'))()\" > index.cjs",
 		"exec": "$@",
 		"prepublishOnly": "npm run build",
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.8",
-		"@ctx-core/event-log": "workspace:^5.0.9",
-		"@ctx-core/function": "workspace:^20.0.7",
-		"@ctx-core/object": "workspace:^21.0.7",
-		"@ctx-core/store": "workspace:^27.0.6",
+		"@ctx-core/array": "workspace:^23.0.9",
+		"@ctx-core/event-log": "workspace:^5.0.10",
+		"@ctx-core/function": "workspace:^20.0.8",
+		"@ctx-core/object": "workspace:^21.0.8",
+		"@ctx-core/store": "workspace:^27.0.7",
 		"esm": "^3.2.25",
 		"resolve": "^1.20.0",
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.0.9",
+		"@ctx-core/dev-tools": "workspace:^7.0.10",
 		"sapper": "0.29.1",
 		"typescript": "^4.3.5"
 	},
