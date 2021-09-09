@@ -2,7 +2,7 @@
 // export * from './express.js'
 export * from './Goto.js'
 export * from './page.js'
-export * from './page$__b.js'
+export * from './page$_b.js'
 export * from './page_error$_b.js'
 export * from './page_host$_b.js'
 export * from './page_params$_b.js'

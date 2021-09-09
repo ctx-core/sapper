@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "14.0.33",
+	"version": "15.0.0",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
