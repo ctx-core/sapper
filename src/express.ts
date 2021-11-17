@@ -1,8 +1,8 @@
+import type { Response } from 'express'
 import { readFile } from 'fs/promises'
 import resolve from 'resolve'
 import { promisify } from 'util'
 const resolve_async = promisify(resolve)
-import type { Response } from 'express'
 import { flatten } from '@ctx-core/array'
 /**
  * GET asset
