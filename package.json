@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "16.0.17",
+	"version": "16.0.18",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
@@ -36,18 +36,18 @@
 		"generate_ctx_I_file": "swc $(./node_modules/.bin/generate_ctx_I_file | tail -n1) --out-dir dist --source-maps --config-file .swcrc"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.29",
-		"@ctx-core/event-log": "workspace:^5.0.33",
-		"@ctx-core/function": "workspace:^20.2.9",
-		"@ctx-core/object": "workspace:^21.0.28",
-		"@ctx-core/store": "workspace:^27.0.42",
+		"@ctx-core/array": "workspace:^23.0.30",
+		"@ctx-core/event-log": "workspace:^5.0.34",
+		"@ctx-core/function": "workspace:^20.2.10",
+		"@ctx-core/object": "workspace:^21.0.29",
+		"@ctx-core/store": "workspace:^27.0.43",
 		"resolve": "^1.20.0",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.2.6",
+		"@ctx-core/dev-tools": "workspace:^7.2.7",
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.117",
+		"@swc/core": "^1.2.118",
 		"sapper": "0.29.3",
 		"typescript": "next"
 	},
