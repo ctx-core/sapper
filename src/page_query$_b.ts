@@ -1,8 +1,8 @@
+import type { Ctx } from '@ctx-core/object'
 import type { Readable$ } from '@ctx-core/store'
 import type { Query } from './page.js'
 import { page$_b } from './page$_b.js'
-import type { sapper_Ctx } from './sapper_Ctx.js'
-export function page_query$_b(ctx:sapper_Ctx):page_query$_T {
+export function page_query$_b(ctx:Ctx):page_query$_T {
 	const page$ = page$_b(ctx)
 	return page$.query$
 }

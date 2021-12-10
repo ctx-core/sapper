@@ -7,9 +7,8 @@ import type { page_host$_T } from './page_host$_b.js'
 import type { page_params$_T } from './page_params$_b.js'
 import type { page_path$_T } from './page_path$_b.js'
 import type { page_query$_T } from './page_query$_b.js'
-import type { sapper_Ctx } from './sapper_Ctx.js'
 const key = 'page$'
-export const page$_b = be_<sapper_Ctx, typeof key>(key, ctx=>{
+export const page$_b = be_<page$_T>(key, ctx=>{
 	const event_log$ = event_log$_b(ctx)
 	const { store: host$, set: set_host } = readable$_set_ctx_<string|undefined>(undefined)
 	host$.subscribe(host=>event_log$.add({ host }))
