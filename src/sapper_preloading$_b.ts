@@ -1,10 +1,10 @@
 import { be_, B } from '@ctx-core/object'
-import { writable$, Writable$ } from '@ctx-core/store'
+import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
 const key = 'sapper_preloading$'
 export const sapper_preloading$_b:B<sapper_preloading$_T> = be_(key, ()=>
-	writable$(undefined) as sapper_preloading$_T
+	atom$(undefined) as sapper_preloading$_T
 )
-export type sapper_preloading$_T = Writable$<object|undefined>
+export type sapper_preloading$_T = WritableAtom$<object|undefined>
 export {
 	sapper_preloading$_b as b__preloading__sapper
 }
