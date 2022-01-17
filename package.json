@@ -42,11 +42,11 @@
 		"@ctx-core/object": "workspace:^22.0.12",
 		"@ctx-core/svelte": "workspace:^10.1.6",
 		"resolve": "^1.21.0",
-		"svelte": "^3.46.1"
+		"svelte": "^3.46.2"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.129",
+		"@swc/core": "^1.2.130",
 		"rimraf": "^3.0.2",
 		"sapper": "0.29.3",
 		"typescript": "next"
