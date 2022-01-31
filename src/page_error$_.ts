@@ -1,8 +1,7 @@
 import type { ReadableAtom$ } from '@ctx-core/nanostores'
 import type { Ctx } from '@ctx-core/object'
-import { page$_b } from './page$_b.js'
-export function page_error$_b(ctx:Ctx):page_error$_T {
-	const page$ = page$_b(ctx)
-	return page$.error$
+import { page$_ } from './page$_.js'
+export function page_error$_(ctx:Ctx):page_error$_T {
+	return page$_(ctx).error$
 }
 export type page_error$_T = ReadableAtom$<Error|undefined>

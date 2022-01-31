@@ -1,15 +1,15 @@
-import { event_log$_b } from '@ctx-core/event-log'
-import { be_, assign } from '@ctx-core/object'
+import { event_log$_ } from '@ctx-core/event-log'
+import { assign, be_ } from '@ctx-core/object'
 import { split_atom$, atom$, WritableAtom$ } from '@ctx-core/nanostores'
 import type { PageParams, Query, PageContext } from './page.js'
-import type { page_error$_T } from './page_error$_b'
-import type { page_host$_T } from './page_host$_b.js'
-import type { page_params$_T } from './page_params$_b.js'
-import type { page_path$_T } from './page_path$_b.js'
-import type { page_query$_T } from './page_query$_b.js'
+import type { page_error$_T } from './page_error$_'
+import type { page_host$_T } from './page_host$_.js'
+import type { page_params$_T } from './page_params$_.js'
+import type { page_path$_T } from './page_path$_.js'
+import type { page_query$_T } from './page_query$_.js'
 const key = 'page$'
-export const page$_b = be_<page$_T>(key, ctx=>{
-	const event_log$ = event_log$_b(ctx)
+export const page$_ = be_<page$_T>(key, ctx=>{
+	const event_log$ = event_log$_(ctx)
 	const [host$, set_host] = split_atom$<string|undefined>(undefined)
 	host$.subscribe(host=>event_log$.add({ host }))
 	const [path$, set_path] = split_atom$<string|undefined>(undefined)
