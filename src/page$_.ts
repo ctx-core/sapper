@@ -1,14 +1,13 @@
 import { event_log$_ } from '@ctx-core/event-log'
 import { assign, be_ } from '@ctx-core/object'
-import { split_atom$, atom$, WritableAtom$ } from '@ctx-core/nanostores'
-import type { PageParams, Query, PageContext } from './page.js'
+import { atom$, split_atom$, WritableAtom$ } from '@ctx-core/nanostores'
+import type { PageContext, PageParams, Query } from './page.js'
 import type { page_error$_T } from './page_error$_'
 import type { page_host$_T } from './page_host$_.js'
 import type { page_params$_T } from './page_params$_.js'
 import type { page_path$_T } from './page_path$_.js'
 import type { page_query$_T } from './page_query$_.js'
-const key = 'page$'
-export const page$_ = be_<page$_T>(key, ctx=>{
+export const page$_ = be_<page$_T>('page$', ctx=>{
 	const event_log$ = event_log$_(ctx)
 	const [host$, set_host] = split_atom$<string|undefined>(undefined)
 	host$.subscribe(host=>event_log$.add({ host }))
