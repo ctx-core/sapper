@@ -36,7 +36,7 @@
 		"@ctx-core/array": "^26.1.5",
 		"@ctx-core/event-log": "^8.0.16",
 		"@ctx-core/function": "^20.7.0",
-		"@ctx-core/nanostores": "^1.0.13",
+		"@ctx-core/nanostores": "^1.0.14",
 		"@ctx-core/object": "^22.1.6",
 		"@ctx-core/svelte": "^10.1.13",
 		"resolve": "^1.22.0",
@@ -44,7 +44,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.170",
+		"@swc/core": "^1.2.171",
 		"rimraf": "^3.0.2",
 		"sapper": "0.29.3",
 		"typescript": "next"
