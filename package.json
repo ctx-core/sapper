@@ -36,7 +36,7 @@
 		"@ctx-core/array": "^26.5.1",
 		"@ctx-core/event-log": "^8.1.0",
 		"@ctx-core/function": "^20.8.0",
-		"@ctx-core/nanostores": "^1.4.0",
+		"@ctx-core/nanostores": "^1.4.1",
 		"@ctx-core/object": "^22.2.1",
 		"@ctx-core/svelte": "^10.2.0",
 		"resolve": "^1.22.0",
