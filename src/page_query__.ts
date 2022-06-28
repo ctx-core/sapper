@@ -1,5 +1,5 @@
-import type { ReadableAtom_ } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import { type ReadableAtom_ } from '@ctx-core/nanostores'
+import { type Ctx } from '@ctx-core/object'
 import type { Query } from './page.js'
 import { page__ } from './page__.js'
 export function page_query__(ctx:Ctx):page_query__T {
