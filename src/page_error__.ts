@@ -1,5 +1,5 @@
-import { type ReadableAtom_ } from '@ctx-core/nanostores'
-import { type Ctx } from '@ctx-core/object'
+import type { ReadableAtom_ } from '@ctx-core/nanostores'
+import type { Ctx } from '@ctx-core/object'
 import { page__ } from './page__.js'
 export function page_error__(ctx:Ctx):page_error__T {
 	return page__(ctx).error_
