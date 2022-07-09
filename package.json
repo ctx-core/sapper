@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "19.2.0",
+	"version": "19.2.2",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
@@ -38,7 +38,7 @@
 		"@ctx-core/function": "^20.8.1",
 		"@ctx-core/nanostores": "^1.4.1",
 		"@ctx-core/object": "^22.2.1",
-		"@ctx-core/svelte": "^10.3.2",
+		"@ctx-core/svelte": "^11.0.0",
 		"resolve": "^1.22.1",
 		"svelte": "^3.49.0"
 	},
