@@ -37,7 +37,7 @@
 		"@ctx-core/event-log": "^9.0.5",
 		"@ctx-core/function": "^21.4.0",
 		"@ctx-core/nanostores": "^2.2.1",
-		"@ctx-core/object": "^22.2.8",
+		"@ctx-core/object": "^22.3.0",
 		"@ctx-core/svelte": "^13.4.2",
 		"resolve": "^1.22.1",
 		"svelte": "^3.52.0"
