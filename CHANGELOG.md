@@ -1,5 +1,16 @@
 # @ctx-core/sapper
 
+## 20.0.30
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@23.0.0
+  - @ctx-core/array@26.8.8
+  - @ctx-core/event-log@9.0.14
+  - @ctx-core/nanostores@2.2.11
+  - @ctx-core/svelte@13.4.14
+
 ## 20.0.29
 
 ### Patch Changes
