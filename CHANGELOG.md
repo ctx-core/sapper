@@ -1,5 +1,18 @@
 # @ctx-core/sapper
 
+## 20.0.37
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/array@26.8.13
+  - @ctx-core/event-log@9.0.20
+  - @ctx-core/function@21.6.1
+  - @ctx-core/nanostores@2.2.17
+  - @ctx-core/object@24.1.1
+  - @ctx-core/svelte@13.4.20
+
 ## 20.0.36
 
 ### Patch Changes
