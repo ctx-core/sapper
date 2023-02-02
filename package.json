@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "20.0.39",
+	"version": "20.0.40",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
@@ -34,9 +34,9 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.8.15",
-		"@ctx-core/event-log": "^9.0.21",
+		"@ctx-core/event-log": "^9.0.22",
 		"@ctx-core/function": "^21.6.1",
-		"@ctx-core/nanostores": "^2.2.18",
+		"@ctx-core/nanostores": "^2.2.19",
 		"@ctx-core/object": "^24.1.2",
 		"@ctx-core/svelte": "^13.4.22",
 		"resolve": "^1.22.1",
