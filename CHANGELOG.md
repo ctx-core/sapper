@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 20.0.48
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^2.2.22 -> ^2.2.23
+- Updated dependencies
+  - @ctx-core/event-log@9.0.26
+
 ## 20.0.47
 
 ### Patch Changes
