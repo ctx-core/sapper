@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 20.0.65
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 20.0.64
 
 ### Patch Changes

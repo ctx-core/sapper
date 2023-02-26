@@ -1,8 +1,6 @@
-import { readFile } from 'fs/promises'
-import resolve from 'resolve'
-import { promisify } from 'util'
 import { flatten } from '@ctx-core/array'
-const resolve_async = promisify(resolve)
+import { import_meta_env_ } from '@ctx-core/env'
+import { readFile } from 'fs/promises'
 /**
  * GET asset
  */
@@ -10,10 +8,10 @@ export function asset__http_get(opts) {
 	const { asset_key, root_dir } = opts
 	return get_asset
 	async function get_asset(_, res) {
-		const NODE_ENV = process.env.NODE_ENV
+		const NODE_ENV = import_meta_env_().NODE_ENV
 		const build_dir = NODE_ENV === 'dev' || NODE_ENV === 'development' ? `${root_dir}/__sapper__/dev` : `${root_dir}/__sapper__/build`
-		const build_path = await resolve_async(`${build_dir}/build.json`)
-		const build = JSON.parse((await readFile(build_path)).toString())
+		const build_path = await import.meta.resolve(`${build_dir}/build.json`)
+		const build = JSON.parse(await readFile(build_path).then($=>$.toString()))
 		const { assets } = build
 		const relative_path_str = assets[asset_key]
 		const relative_path_a = flatten([
@@ -36,7 +34,7 @@ export function asset__http_get(opts) {
 			return promise_a
 		}
 		async function asset_body_(relative_path) {
-			const resolved_path = await resolve_async(`${build_dir}/client/${relative_path}`)
+			const resolved_path = await import.meta.resolve(`${build_dir}/client/${relative_path}`)
 			return readFile(resolved_path)
 		}
 	}
