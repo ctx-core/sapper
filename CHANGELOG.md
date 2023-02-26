@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 20.0.66
+
+### Patch Changes
+
+- dependencies: fix: @ctx-core/env
+
 ## 20.0.65
 
 ### Patch Changes
