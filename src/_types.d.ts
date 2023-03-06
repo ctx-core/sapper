@@ -11,7 +11,7 @@ export interface PageContext {
 	query:Query;
 	error?:Error;
 }
-export type { PageContext as Page }
+export { PageContext as Page }
 export declare type page_T = PageContext;
 export declare type PageParams = Record<string, string>;
 export declare type Query = Record<string, string|string[]>;

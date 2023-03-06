@@ -1,5 +1,15 @@
 # @ctx-core/sapper
 
+## 20.0.76
+
+### Patch Changes
+
+- Page: fix: export { PageContext as Page }
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@27.1.4
+  - @ctx-core/svelte@13.4.47
+
 ## 20.0.75
 
 ### Patch Changes
