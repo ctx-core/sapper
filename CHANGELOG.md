@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 20.0.81
+
+### Patch Changes
+
+- @ctx-core/event-log: ^9.0.45 -> ^9.0.46
+- Updated dependencies
+  - @ctx-core/env@17.2.33
+
 ## 20.0.80
 
 ### Patch Changes
