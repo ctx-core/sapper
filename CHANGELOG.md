@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 20.0.87
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.35 -> ^17.2.36
+
 ## 20.0.86
 
 ### Patch Changes
