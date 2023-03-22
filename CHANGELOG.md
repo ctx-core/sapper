@@ -1,5 +1,15 @@
 # @ctx-core/sapper
 
+## 20.0.92
+
+### Patch Changes
+
+- @ctx-core/event-log: ^9.0.48 -> ^9.0.49
+- @ctx-core/array: ^26.12.1 -> ^26.12.2
+- @ctx-core/env: ^17.2.39 -> ^17.2.40
+- @ctx-core/nanostores: ^3.1.10 -> ^3.1.11
+- @ctx-core/svelte: ^13.4.55 -> ^13.4.56
+
 ## 20.0.91
 
 ### Patch Changes
