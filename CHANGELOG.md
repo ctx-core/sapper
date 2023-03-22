@@ -1,5 +1,23 @@
 # @ctx-core/sapper
 
+## 20.0.91
+
+### Patch Changes
+
+- ∋ globalThis\__be_:
+
+  page**
+  page**host**
+  page**path**
+  page**params**
+  page**query**
+  page**error**
+  sapper_preloading**
+  sapper_session\_\_
+
+- Updated dependencies
+  - @ctx-core/object@27.2.0
+
 ## 20.0.90
 
 ### Patch Changes
