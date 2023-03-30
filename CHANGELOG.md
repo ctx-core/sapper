@@ -1,5 +1,16 @@
 # @ctx-core/sapper
 
+## 20.0.100
+
+### Patch Changes
+
+- @ctx-core/function: ^21.12.2 -> ^21.13.0
+- Updated dependencies
+  - @ctx-core/array@26.12.5
+  - @ctx-core/env@17.2.48
+  - @ctx-core/nanostores@3.1.14
+  - @ctx-core/object@27.3.2
+
 ## 20.0.99
 
 ### Patch Changes
