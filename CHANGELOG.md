@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 20.0.115
+
+### Patch Changes
+
+- fix: import type
+
 ## 20.0.114
 
 ### Patch Changes

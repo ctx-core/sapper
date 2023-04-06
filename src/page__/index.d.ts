@@ -1,6 +1,6 @@
-import { ReadableAtom_, WritableAtom_ } from '@ctx-core/nanostores'
-import { type be__return_T } from '@ctx-core/object'
-import { type PageContext, PageParams, Query } from '../_types'
+import type { ReadableAtom_, WritableAtom_ } from '@ctx-core/nanostores'
+import type { be__return_T } from '@ctx-core/object'
+import type { PageContext, PageParams, Query } from '../_types'
 export declare const page__:be__return_T<WritableAtom_<PageContext>>
 export declare const page__host__:be__return_T<ReadableAtom_<string|null>>
 export declare const page__path__:be__return_T<ReadableAtom_<string|null>>
