@@ -1,5 +1,26 @@
 # @ctx-core/sapper
 
+## 21.1.0
+
+### Minor Changes
+
+- instantiate using globalThis\__be_:
+
+      page$_
+      page__host$_
+      page__path$_
+      page__params$_
+      page__query$_
+      page__error$_
+      sapper_preloading$_
+      sapper_session$_
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@27.5.0
+
 ## 21.0.2
 
 ### Patch Changes
