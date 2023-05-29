@@ -1,5 +1,15 @@
 # @ctx-core/sapper
 
+## 21.0.0
+
+### Major Changes
+
+- page$**set=>page**set
+- sapper_preloading$**set=>sapper_preloading**set
+- sapper_session$**set=>sapper_session**set
+- - asset\_\_http_get_opts_type
+- - \_get\_\_asset
+
 ## 20.2.0
 
 ### Minor Changes

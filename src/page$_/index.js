@@ -2,7 +2,7 @@ import { be_derived_pair_, be_writable_triple_, derived_, writable_ } from '@ctx
 export const [
 	page$_,
 	page_,
-	page$__set,
+	page__set,
 ] = be_writable_triple_('page$_', ()=>
 	writable_(null))
 export { page$_ as page__ }

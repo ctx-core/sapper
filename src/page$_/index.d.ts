@@ -3,7 +3,7 @@ import type { PageContext, PageParams, Query } from '../_types'
 export declare const [
 	page$_,
 	page_,
-	page$__set,
+	page__set,
 ] = be_writable_triple_T<
 	Writable_<PageContext>
 >

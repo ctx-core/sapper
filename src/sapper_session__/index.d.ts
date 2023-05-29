@@ -2,7 +2,7 @@ import type  { Writable_ } from '@ctx-core/svelte'
 export declare const [
 	sapper_session$_,
 	sapper_session_,
-	sapper_session$__set,
+	sapper_session__set,
 ] = be_writable_triple_T<
 	Writable_<object>
 >

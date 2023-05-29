@@ -1,7 +1,7 @@
 import { ctx_ } from '@ctx-core/object'
 import { test } from 'uvu'
 import { equal, is } from 'uvu/assert'
-import { page$__set, page__error_, page__host_, page__params_, page__path_, page__query_ } from '../index.js'
+import { page__set, page__error_, page__host_, page__params_, page__path_, page__query_ } from '../index.js'
 test('page__', ()=>{
 	const ctx = ctx_()
 	equal(page__host_(ctx), null)
@@ -10,7 +10,7 @@ test('page__', ()=>{
 	equal(page__query_(ctx), null)
 	equal(page__error_(ctx), null)
 	const error = new Error('test error')
-	page$__set(ctx, {
+	page__set(ctx, {
 		host: 'test-host',
 		path: '/test/path',
 		params: { test: 'params' },

@@ -1,11 +1,13 @@
 import { flatten } from '@ctx-core/array'
 import { import_meta_env_ } from '@ctx-core/env'
 import { readFile } from 'fs/promises'
+/** @typedef {import('./index.d.ts').asset__http_get_params_T}asset__http_get_params_T */
 /**
  * GET asset
+ * @param {asset__http_get_params_T}params
  */
-export function asset__http_get(opts) {
-	const { asset_key, root_dir } = opts
+export function asset__http_get(params) {
+	const { asset_key, root_dir } = params
 	return get_asset
 	async function get_asset(_, res) {
 		const NODE_ENV = import_meta_env_().NODE_ENV
@@ -41,8 +43,4 @@ export function asset__http_get(opts) {
 			return readFile(resolved_path)
 		}
 	}
-}
-export {
-	asset__http_get as get_asset_,
-	asset__http_get as _get__asset
 }
