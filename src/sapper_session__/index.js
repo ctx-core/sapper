@@ -3,6 +3,6 @@ export const [
 	sapper_session$_,
 	sapper_session_,
 	sapper_session$__set,
-] = be_writable_triple_(()=>
+] = be_writable_triple_('sapper_session$_', ()=>
 	writable_(null))
 export { sapper_session$_ as sapper_session__ }

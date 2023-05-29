@@ -1,5 +1,20 @@
 # @ctx-core/sapper
 
+## 20.2.0
+
+### Minor Changes
+
+- - be id:
+
+    page$_
+  	page__host$_
+    page\_\_path$_
+    page**params$\_
+    page**query$_
+  	page__error$_
+    sapper_preloading$_
+    sapper*session$*
+
 ## 20.1.2
 
 ### Patch Changes

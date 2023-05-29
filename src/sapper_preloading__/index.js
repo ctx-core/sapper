@@ -3,7 +3,7 @@ export const [
 	sapper_preloading$_,
 	sapper_preloading_,
 	sapper_preloading$__set,
-] = be_writable_triple_(()=>
+] = be_writable_triple_('sapper_preloading$_', ()=>
 	writable_(undefined))
 export {
 	sapper_preloading$_ as sapper_preloading__,
