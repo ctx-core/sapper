@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 20.1.1
+
+### Patch Changes
+
+- fix: sapper*preloading$* export error
+
 ## 20.1.0
 
 ### Minor Changes

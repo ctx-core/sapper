@@ -7,6 +7,5 @@ export const [
 	writable_(undefined))
 export {
 	sapper_preloading$_ as sapper_preloading__,
-	sapper_preloading$_ as sapper_preloading$_,
 }
 
