@@ -1,5 +1,31 @@
 # @ctx-core/sapper
 
+## 21.1.6
+
+### Patch Changes
+
+- fix: type definitions:
+
+      page$_
+      page_
+      page__set
+      page__host$_
+      page__host_
+      page__path$_
+      page__path_
+      page__params$_
+      page__params_
+      page__query$_
+      page__query_
+      page__error$_
+      page__error_
+      sapper_preloading$_
+      sapper_preloading_
+      sapper_preloading__set
+      sapper_session$_
+      sapper_session_
+      sapper_session__set
+
 ## 21.1.5
 
 ### Patch Changes
