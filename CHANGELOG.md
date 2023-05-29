@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 21.1.5
+
+### Patch Changes
+
+- @ctx-core/svelte: ^14.0.0 -> ^14.0.1
+
 ## 21.1.4
 
 ### Patch Changes
