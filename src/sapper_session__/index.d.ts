@@ -1,3 +1,9 @@
-import type { WritableAtom_ } from '@ctx-core/nanostores'
-import type { Be } from '@ctx-core/object'
-export declare const sapper_session__:Be<WritableAtom_<object|null>>
+import type  { Writable_ } from '@ctx-core/svelte'
+export declare const [
+	sapper_session$_,
+	sapper_session_,
+	sapper_session$__set,
+] = be_writable_triple_T<
+	Writable_<object>
+>
+export { sapper_session$_ as sapper_session__ }

@@ -1,5 +1,8 @@
-import { atom_ } from '@ctx-core/nanostores'
-import { globalThis__be_ } from '@ctx-core/object'
-export const sapper_session__ =
-	globalThis__be_('sapper_session__', ()=>
-		atom_(null))
+import { be_writable_triple_, writable_ } from '@ctx-core/svelte'
+export const [
+	sapper_session$_,
+	sapper_session_,
+	sapper_session$__set,
+] = be_writable_triple_(()=>
+	writable_(null))
+export { sapper_session$_ as sapper_session__ }

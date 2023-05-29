@@ -1,6 +1,12 @@
-import { atom_ } from '@ctx-core/nanostores'
-import { globalThis__be_ } from '@ctx-core/object'
-export const sapper_preloading__ =
-	globalThis__be_('sapper_preloading__', ()=>
-		atom_(undefined))
-export { sapper_preloading__ as sapper_preloading$_ }
+import { be_writable_triple_, writable_ } from '@ctx-core/svelte'
+export const [
+	sapper_preloading$_,
+	sapper_preloading_,
+	sapper_preloading$__set,
+] = be_writable_triple_(()=>
+	writable_(undefined))
+export {
+	sapper_preloading$_ as sapper_preloading__,
+	sapper_preloading$_ as sapper_preloading$_,
+}
+

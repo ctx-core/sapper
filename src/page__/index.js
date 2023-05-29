@@ -1,37 +1,54 @@
-import { derived_, writable_ } from '@ctx-core/svelte'
-import { globalThis__be_ } from '@ctx-core/object'
-export const page__ =
-	globalThis__be_('page__', ()=>
-		writable_(null))
-export { page__ as page$_ }
-export const page__host__ =
-	globalThis__be_('page__host__', ctx=>
-		derived_(page__(ctx), $=>
-			$
-			? $.host
+import { be_derived_pair_, be_writable_triple_, derived_, writable_ } from '@ctx-core/svelte'
+export const [
+	page$_,
+	page_,
+	page$__set,
+] = be_writable_triple_(()=>
+	writable_(null))
+export { page$_ as page__ }
+export const [
+	page__host$_,
+	page__host_,
+] = be_derived_pair_(ctx=>
+	derived_(page$_(ctx), page=>
+		page
+		? page.host
+		: null))
+export { page__host$_ as page__host__ }
+export const [
+	page__path$_,
+	page__path_,
+] = be_derived_pair_(ctx=>
+	derived_(page__(ctx), page=>
+		page
+		? page.path
+		: null))
+export { page__path$_ as page__path__ }
+export const [
+	page__params$_,
+	page__params_
+] = be_derived_pair_(ctx=>
+	derived_(page__(ctx), page=>
+		page
+		? page.params
+		: null))
+export { page__params$_ as page__params__ }
+export const [
+	page__query$_,
+	page__query_,
+] = be_derived_pair_(ctx=>
+	derived_(page__(ctx),
+		page=>
+			page
+			? page.query
 			: null))
-export const page__path__ =
-	globalThis__be_('page__path__', ctx=>
-		derived_(page__(ctx), $=>
-			$
-			? $.path
-			: null))
-export const page__params__ =
-	globalThis__be_('page__params__', ctx=>
-		derived_(page__(ctx), $=>
-			$
-			? $.params
-			: null))
-export const page__query__ =
-	globalThis__be_('page__query__', ctx=>
-		derived_(page__(ctx),
-			$=>
-				$
-				? $.query
-				: null))
-export const page__error__ =
-	globalThis__be_('page__error__', ctx=>
-		derived_(page__(ctx), $=>
-			$
-			? $.error
-			: null))
+export { page__query$_ as page__query__ }
+export const [
+	page__error$_,
+	page__error_,
+] = be_derived_pair_(ctx=>
+	derived_(page__(ctx), page=>
+		page
+		? page.error
+		: null))
+export { page__error$_ as page__error__ }

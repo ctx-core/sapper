@@ -1,5 +1,32 @@
 # @ctx-core/sapper
 
+## 20.1.0
+
+### Minor Changes
+
+- new functions:
+
+      + page_
+      + page$__set
+      + page__host$_: aliased by page__path___
+      + page__host_
+      + page__params$_: aliased by page__params__
+      + page__params_
+      + page__query$_: aliased by page__query__
+      + page__query_
+      + page__error$_: aliased by page__error__
+      + page__error_
+      + sapper_preloading$_: aliased by sapper_preloading__
+      + sapper_preloading_
+      + sapper_preloading$__set
+      + sapper_session$_: aliased by sapper_session__
+      + sapper_session_
+      + sapper_session$__set
+
+### Patch Changes
+
+- - @ctx-core/nanostores
+
 ## 20.0.153
 
 ### Patch Changes
