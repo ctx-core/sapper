@@ -19,7 +19,7 @@ export const [
 	page__path$_,
 	page__path_,
 ] = be_derived_pair_(ctx=>
-	derived_(page__(ctx), page=>
+	derived_(page$_(ctx), page=>
 		page
 		? page.path
 		: null))
@@ -28,7 +28,7 @@ export const [
 	page__params$_,
 	page__params_
 ] = be_derived_pair_(ctx=>
-	derived_(page__(ctx), page=>
+	derived_(page$_(ctx), page=>
 		page
 		? page.params
 		: null))
@@ -37,7 +37,7 @@ export const [
 	page__query$_,
 	page__query_,
 ] = be_derived_pair_(ctx=>
-	derived_(page__(ctx),
+	derived_(page$_(ctx),
 		page=>
 			page
 			? page.query
@@ -47,7 +47,7 @@ export const [
 	page__error$_,
 	page__error_,
 ] = be_derived_pair_(ctx=>
-	derived_(page__(ctx), page=>
+	derived_(page$_(ctx), page=>
 		page
 		? page.error
 		: null))

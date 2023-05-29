@@ -1,5 +1,16 @@
 # @ctx-core/sapper
 
+## 20.1.2
+
+### Patch Changes
+
+- fix: reference to page$\_:
+
+      page__path$_
+      page__params$_
+      page__query$_
+      page__error$_
+
 ## 20.1.1
 
 ### Patch Changes
