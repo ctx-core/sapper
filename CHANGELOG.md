@@ -1,5 +1,17 @@
 # @ctx-core/sapper
 
+## 21.1.8
+
+### Patch Changes
+
+- directory rename:
+
+      sapper_preloading__=>sapper_preloading$_
+      sapper_session__=>sapper_session$_
+
+- Updated dependencies
+  - @ctx-core/svelte@14.1.0
+
 ## 21.1.7
 
 ### Patch Changes
