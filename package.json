@@ -39,7 +39,7 @@
 		"@ctx-core/function": "^21.18.0",
 		"@ctx-core/object": "^28.0.3",
 		"@ctx-core/svelte": "^14.1.14",
-		"svelte": "^4.0.5"
+		"svelte": "^4.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.0",
