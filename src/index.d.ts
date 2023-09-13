@@ -1,4 +1,4 @@
 export * from './_types'
-export * from './page$_'
-export * from './sapper_preloading$_'
-export * from './sapper_session$_'
+export * from './page'
+export * from './sapper_preloading'
+export * from './sapper_session'

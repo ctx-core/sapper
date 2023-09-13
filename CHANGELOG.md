@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 21.1.52
+
+### Patch Changes
+
+- rename directories: remove $\_ suffix
+
 ## 21.1.51
 
 ### Patch Changes
