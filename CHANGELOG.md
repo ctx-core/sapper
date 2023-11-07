@@ -1,5 +1,12 @@
 # @ctx-core/sapper
 
+## 21.1.65
+
+### Patch Changes
+
+- @ctx-core/env: ^17.3.16 -> ^17.3.17
+- @ctx-core/event-log: ^9.1.34 -> ^9.1.35
+
 ## 21.1.64
 
 ### Patch Changes
