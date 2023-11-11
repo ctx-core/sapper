@@ -15,8 +15,8 @@ export const [
 ] = be_readable_pair_('page__host$_', ctx=>
 		derived_(page$_(ctx), page=>
 			page
-			? page.host
-			: null),
+				? page.host
+				: null),
 	{ be_: globalThis__be_ })
 export { page__host$_ as page__host__ }
 export const [
@@ -25,8 +25,8 @@ export const [
 ] = be_readable_pair_('page__path$_', ctx=>
 		derived_(page$_(ctx), page=>
 			page
-			? page.path
-			: null),
+				? page.path
+				: null),
 	{ be_: globalThis__be_ })
 export { page__path$_ as page__path__ }
 export const [
@@ -35,8 +35,8 @@ export const [
 ] = be_readable_pair_('page__params$_', ctx=>
 		derived_(page$_(ctx), page=>
 			page
-			? page.params
-			: null),
+				? page.params
+				: null),
 	{ be_: globalThis__be_ })
 export { page__params$_ as page__params__ }
 export const [
@@ -46,8 +46,8 @@ export const [
 		derived_(page$_(ctx),
 			page=>
 				page
-				? page.query
-				: null),
+					? page.query
+					: null),
 	{ be_: globalThis__be_ })
 export { page__query$_ as page__query__ }
 export const [
@@ -56,7 +56,7 @@ export const [
 ] = be_readable_pair_('page__error$_', ctx=>
 		derived_(page$_(ctx), page=>
 			page
-			? page.error
-			: null),
+				? page.error
+				: null),
 	{ be_: globalThis__be_ })
 export { page__error$_ as page__error__ }

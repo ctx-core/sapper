@@ -1,5 +1,5 @@
 import type { be_readable_pair_T, be_writable_triple_T, Readable_, Writable_ } from '@ctx-core/svelte'
-import type { PageContext, PageParams, Query } from '../_types'
+import type { PageContext, PageParams, Query } from '../_types/index.js'
 export declare const [
 	page$_,
 	page_,

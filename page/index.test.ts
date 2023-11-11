@@ -1,7 +1,7 @@
 import { ctx__new } from '@ctx-core/object'
 import { test } from 'uvu'
 import { equal, is } from 'uvu/assert'
-import { page__set, page__error_, page__host_, page__params_, page__path_, page__query_ } from '../index.js'
+import { page__error_, page__host_, page__params_, page__path_, page__query_, page__set } from '../index.js'
 test('page__', ()=>{
 	const ctx = ctx__new()
 	equal(page__host_(ctx), null)

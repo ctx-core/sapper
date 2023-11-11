@@ -1,4 +1,3 @@
-import type { Response } from 'express'
 /**
  * GET asset
  */

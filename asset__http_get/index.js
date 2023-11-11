@@ -13,8 +13,8 @@ export function asset__http_get(params) {
 		const NODE_ENV = import_meta_env_().NODE_ENV
 		const build_dir =
 			NODE_ENV === 'dev' || NODE_ENV === 'development'
-			? `${root_dir}/__sapper__/dev`
-			: `${root_dir}/__sapper__/build`
+				? `${root_dir}/__sapper__/dev`
+				: `${root_dir}/__sapper__/build`
 		const build_path = await import.meta.resolve(`${build_dir}/build.json`)
 		const build = JSON.parse(await readFile(build_path).then($=>$.toString()))
 		const { assets } = build
