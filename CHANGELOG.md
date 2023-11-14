@@ -1,5 +1,18 @@
 # @ctx-core/sapper
 
+## 21.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/array@27.0.2
+  - @ctx-core/env@17.4.2
+  - @ctx-core/event-log@9.2.2
+  - @ctx-core/function@21.21.2
+  - @ctx-core/object@30.1.2
+  - @ctx-core/svelte@14.2.2
+
 ## 21.2.1
 
 ### Patch Changes
