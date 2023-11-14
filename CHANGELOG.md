@@ -1,5 +1,14 @@
 # @ctx-core/sapper
 
+## 21.2.4
+
+### Patch Changes
+
+- @ctx-core/array: ^27.0.3 -> ^27.0.4
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svelte@14.2.4
+
 ## 21.2.3
 
 ### Patch Changes
