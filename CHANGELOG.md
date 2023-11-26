@@ -1,5 +1,21 @@
 # @ctx-core/sapper
 
+## 21.2.32
+
+### Patch Changes
+
+- @ctx-core/function: ^21.22.22 -> ^21.22.23
+- @ctx-core/object: ^31.1.8 -> ^31.1.9
+- @ctx-core/array: ^27.0.27 -> ^27.0.28
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/env@17.4.31
+  - @ctx-core/svelte@15.0.12
+  - @ctx-core/event-log@9.2.31
+
 ## 21.2.31
 
 ### Patch Changes
