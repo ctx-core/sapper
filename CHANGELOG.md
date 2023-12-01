@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 21.2.38
+
+### Patch Changes
+
+- svelte: ^4.2.7 -> ^4.2.8
+- Updated dependencies
+  - @ctx-core/svelte@15.0.18
+
 ## 21.2.37
 
 ### Patch Changes
