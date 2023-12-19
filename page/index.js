@@ -1,5 +1,5 @@
-import { globalThis__be_ } from '@ctx-core/object'
 import { be_readable_pair_, be_writable_triple_, derived_, writable_ } from '@ctx-core/svelte'
+import { globalThis__be_ } from 'ctx-core/be'
 export const [
 	page$_,
 	page_,

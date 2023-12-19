@@ -1,5 +1,5 @@
-import { globalThis__be_ } from '@ctx-core/object'
 import { be_writable_triple_, writable_ } from '@ctx-core/svelte'
+import { globalThis__be_ } from 'ctx-core/be'
 export const [
 	sapper_preloading$_,
 	sapper_preloading_,
