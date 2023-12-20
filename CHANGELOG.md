@@ -1,5 +1,14 @@
 # @ctx-core/sapper
 
+## 21.2.74
+
+### Patch Changes
+
+- ctx-core: ^5.3.0 -> ^5.3.1
+- Updated dependencies
+  - @ctx-core/event-log@9.2.68
+  - @ctx-core/svelte@16.0.10
+
 ## 21.2.73
 
 ### Patch Changes
