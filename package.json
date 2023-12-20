@@ -21,11 +21,11 @@
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"./asset__http_get",
-		"./page",
-		"./sapper_preloading",
-		"./sapper_session",
-		"./_types"
+		"_types",
+		"asset__http_get",
+		"page",
+		"sapper_preloading",
+		"sapper_session"
 	],
 	"types": "./index.d.ts",
 	"exports": {
@@ -42,7 +42,6 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/env": "^17.4.61",
 		"@ctx-core/event-log": "^9.2.62",
 		"@ctx-core/svelte": "^16.0.4",
 		"ctx-core": "^5.1.0",

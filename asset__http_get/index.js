@@ -1,6 +1,6 @@
 /// <reference types="./index.d.ts" />
-import { import_meta_env_ } from '@ctx-core/env'
 import { flatten } from 'ctx-core/array'
+import { import_meta_env_ } from 'ctx-core/env'
 import { readFile } from 'fs/promises'
 /**
  * GET asset
