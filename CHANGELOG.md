@@ -1,5 +1,11 @@
 # @ctx-core/sapper
 
+## 21.2.96
+
+### Patch Changes
+
+- page**path,page**path$_,page\_\_path_: fix: type
+
 ## 21.2.95
 
 ### Patch Changes

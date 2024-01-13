@@ -1,4 +1,4 @@
-import type { be_readable_pair_T, be_writable_triple_T, Readable_ } from '@ctx-core/svelte'
+import type { be_readable_pair_T, be_writable_triple_T } from '@ctx-core/svelte'
 import type { PageContext, PageParams, Query } from '../_types/index.js'
 export declare const [
 	page$_,
@@ -14,9 +14,7 @@ export { page__host$_ as page__host__ }
 export declare const [
 	page__path$_,
 	page__path_,
-]:be_readable_pair_T<
-	Readable_<string>
->
+]:be_readable_pair_T<string>
 export { page__path$_ as page__path__ }
 export declare const [
 	page__params$_,
