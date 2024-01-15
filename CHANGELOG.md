@@ -1,5 +1,13 @@
 # @ctx-core/sapper
 
+## 21.2.105
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - ctx-core@5.18.8
+
 ## 21.2.104
 
 ### Patch Changes

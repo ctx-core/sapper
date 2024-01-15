@@ -1,7 +1,7 @@
 /// <reference types="./index.d.ts" />
 import { flatten } from 'ctx-core/array'
 import { import_meta_env_ } from 'ctx-core/env'
-import { readFile } from 'fs/promises'
+import { readFile } from 'node:fs/promises'
 /**
  * GET asset
  * @param {asset__http_get_params_T}params
