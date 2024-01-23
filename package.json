@@ -45,7 +45,7 @@
 	"dependencies": {
 		"@ctx-core/event-log": "^10.0.42",
 		"@ctx-core/svelte": "^16.0.59",
-		"ctx-core": "^5.27.0",
+		"ctx-core": "^5.27.1",
 		"svelte": "^4.2.9"
 	},
 	"devDependencies": {
