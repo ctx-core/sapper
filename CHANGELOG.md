@@ -1,5 +1,15 @@
 # @ctx-core/sapper
 
+## 21.2.180
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+  - @ctx-core/event-log@10.0.92
+  - @ctx-core/svelte@16.0.109
+
 ## 21.2.179
 
 ### Patch Changes

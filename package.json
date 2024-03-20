@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "21.2.179",
+	"version": "21.2.180",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/sapper.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-sapper@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -43,9 +47,9 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/event-log": "^10.0.91",
-		"@ctx-core/svelte": "^16.0.108",
-		"ctx-core": "^6.6.0",
+		"@ctx-core/event-log": "^10.0.92",
+		"@ctx-core/svelte": "^16.0.109",
+		"ctx-core": "^6.6.1",
 		"svelte": "^4.2.12"
 	},
 	"devDependencies": {
