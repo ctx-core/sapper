@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sapper",
-	"version": "21.2.232",
+	"version": "21.2.233",
 	"description": "ctx-core sapper utils",
 	"keywords": [
 		"ctx-core",
@@ -47,15 +47,15 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/event-log": "^10.0.138",
-		"@ctx-core/svelte": "^16.0.159",
-		"ctx-core": "^7.2.29",
+		"@ctx-core/event-log": "^10.0.139",
+		"@ctx-core/svelte": "^16.0.160",
+		"ctx-core": "^7.2.30",
 		"svelte": "^4.2.18"
 	},
 	"devDependencies": {
 		"c8": "^10.1.2",
 		"check-dts": "^0.8.0",
-		"tsx": "^4.16.2",
+		"tsx": "^4.17.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
