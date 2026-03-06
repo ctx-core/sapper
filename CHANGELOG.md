@@ -1,5 +1,15 @@
 # @ctx-core/sapper
 
+## 21.2.238
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/event-log@10.0.143
+  - @ctx-core/svelte@16.0.164
+
 ## 21.2.237
 
 ### Patch Changes
